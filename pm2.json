@@ -1,14 +1,14 @@
 {
   "apps": [
     {
-      "name": "happygreen",
+      "name": "sunkids",
       "script": "build/server.js",
       "exec_interpreter": "node",
       "exec_mode": "fork",
       "env": {
         "NODE_ENV": "production",
-        "WEBSITE_HOSTNAME": "happygreenmarket.vn",
-        "PORT": 3457
+        "WEBSITE_HOSTNAME": "sunkidsvn.edu.vn",
+        "PORT": 4969
       },
     }
   ]
