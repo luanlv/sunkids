@@ -15,7 +15,7 @@ if (process.env.BROWSER) {
 
 module.exports = {
   // Node.js app
-  port: process.env.PORT || 3457,
+  port: process.env.PORT || 4969,
 
   mongoDBURL: 'mongodb://localhost/happygreen',
   // API Gateway
