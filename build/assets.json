@@ -1,0 +1,38 @@
+{
+  "admin": {
+    "js": "/assets/admin.16301eff.chunk.js"
+  },
+  "shop": {
+    "js": "/assets/shop.cff3a733.chunk.js"
+  },
+  "news": {
+    "js": "/assets/news.f6b7ba23.chunk.js"
+  },
+  "checkout": {
+    "js": "/assets/checkout.da624bb6.chunk.js"
+  },
+  "contact": {
+    "js": "/assets/contact.528fb092.chunk.js"
+  },
+  "chinhanh": {
+    "js": "/assets/chinhanh.8c88d997.chunk.js"
+  },
+  "cart": {
+    "js": "/assets/cart.6b2293b3.chunk.js"
+  },
+  "sanpham": {
+    "js": "/assets/sanpham.bfb938dc.chunk.js"
+  },
+  "newsDetail": {
+    "js": "/assets/newsDetail.4ee45acb.chunk.js"
+  },
+  "about": {
+    "js": "/assets/about.f2b3d1e7.chunk.js"
+  },
+  "client": {
+    "js": "/assets/client.274065e2.js"
+  },
+  "vendor": {
+    "js": "/assets/vendor.b0ce037f.js"
+  }
+}
