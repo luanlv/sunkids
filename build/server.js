@@ -1125,13 +1125,13 @@ module.exports = {
   // Node.js app
   port: process.env.PORT || 4969,
 
-  mongoDBURL: 'mongodb://localhost/happygreen',
+  mongoDBURL: 'mongodb://localhost/sunkids',
   // API Gateway
   api: {
     // API URL to be used in the client-side code
     clientUrl: process.env.API_CLIENT_URL || '',
     // API URL to be used in the server-side code
-    serverUrl: process.env.API_SERVER_URL || `http://localhost:${process.env.PORT || 3457}`
+    serverUrl: process.env.API_SERVER_URL || `http://localhost:${process.env.PORT || 4969}`
   },
 
   // Database
@@ -18567,171 +18567,67 @@ var _ref49 = _jsx('div', {
   className: 'hr'
 });
 
-var _ref50 = _jsx('img', {
-  src: '/themes/demo/assets/img/blogprev1.jpg',
-  alt: true
-});
-
-var _ref51 = _jsx('div', {
-  className: 'date'
-}, void 0, _jsx('span', {
-  className: 'day'
-}, void 0, '22'), _jsx('span', {
-  className: 'month'
-}, void 0, 'Jul'));
-
-var _ref52 = _jsx('div', {
-  className: 'blog-caption'
-}, void 0, _jsx('h4', {}, void 0, 'The Safest toys for your Child'), _jsx('p', {
-  className: 'hidden-xs'
-}, void 0, 'Sed consectetur tortor ut arcu pharetra faucibus. In tristique sollicitudin mi ac congue... '));
-
-var _ref53 = _jsx('div', {
+var _ref50 = _jsx('div', {
   className: 'hover'
 });
 
-var _ref54 = _jsx('a', {
-  href: 'blog-single.html'
-});
-
-var _ref55 = _jsx('img', {
-  src: '/themes/demo/assets/img/blogprev2.jpg',
-  alt: true
-});
-
-var _ref56 = _jsx('div', {
-  className: 'date'
-}, void 0, _jsx('span', {
-  className: 'day'
-}, void 0, '18'), _jsx('span', {
-  className: 'month'
-}, void 0, 'Jul'));
-
-var _ref57 = _jsx('div', {
-  className: 'blog-caption'
-}, void 0, _jsx('h4', {}, void 0, 'Teach your kids these Rules'), _jsx('p', {
-  className: 'hidden-xs'
-}, void 0, 'Sed consectetur tortor ut arcu pharetra faucibus. In tristique sollicitudin mi ac congue... '));
-
-var _ref58 = _jsx('div', {
-  className: 'hover'
-});
-
-var _ref59 = _jsx('a', {
-  href: 'blog-single.html'
-});
-
-var _ref60 = _jsx('img', {
-  src: '/themes/demo/assets/img/blogprev3.jpg',
-  alt: true
-});
-
-var _ref61 = _jsx('div', {
-  className: 'date'
-}, void 0, _jsx('span', {
-  className: 'day'
-}, void 0, '04'), _jsx('span', {
-  className: 'month'
-}, void 0, 'Jul'));
-
-var _ref62 = _jsx('div', {
-  className: 'blog-caption'
-}, void 0, _jsx('h4', {}, void 0, 'The Best Nutritious Snacks'), _jsx('p', {
-  className: 'hidden-xs'
-}, void 0, 'Sed consectetur tortor ut arcu pharetra faucibus. In tristique sollicitudin mi ac congue... '));
-
-var _ref63 = _jsx('div', {
-  className: 'hover'
-});
-
-var _ref64 = _jsx('a', {
-  href: 'blog-single.html'
-});
-
-var _ref65 = _jsx('img', {
-  src: '/themes/demo/assets/img/blogprev4.jpg',
-  alt: true
-});
-
-var _ref66 = _jsx('div', {
-  className: 'date'
-}, void 0, _jsx('span', {
-  className: 'day'
-}, void 0, '24'), _jsx('span', {
-  className: 'month'
-}, void 0, 'Jun'));
-
-var _ref67 = _jsx('div', {
-  className: 'blog-caption'
-}, void 0, _jsx('h4', {}, void 0, '10 Most popular Toys of 2017'), _jsx('p', {
-  className: 'hidden-xs'
-}, void 0, 'Sed consectetur tortor ut arcu pharetra faucibus. In tristique sollicitudin mi ac congue... '));
-
-var _ref68 = _jsx('div', {
-  className: 'hover'
-});
-
-var _ref69 = _jsx('a', {
-  href: 'blog-single.html'
-});
-
-var _ref70 = _jsx('h2', {
+var _ref51 = _jsx('h2', {
   className: 'text-light'
 }, void 0, 'Gallery');
 
-var _ref71 = _jsx('div', {
+var _ref52 = _jsx('div', {
   className: 'hr light'
 });
 
-var _ref72 = _jsx('img', {
+var _ref53 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh2.jpg',
   className: 'img-responsive'
 });
 
-var _ref73 = _jsx('img', {
+var _ref54 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh4.jpg',
   className: 'img-responsive'
 });
 
-var _ref74 = _jsx('img', {
+var _ref55 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh6.jpg',
   className: 'img-responsive'
 });
 
-var _ref75 = _jsx('img', {
+var _ref56 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh7.jpg',
   className: 'img-responsive'
 });
 
-var _ref76 = _jsx('img', {
+var _ref57 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh1.jpg',
   className: 'img-responsive'
 });
 
-var _ref77 = _jsx('img', {
+var _ref58 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh3.jpg',
   className: 'img-responsive'
 });
 
-var _ref78 = _jsx('img', {
+var _ref59 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh5.jpg',
   className: 'img-responsive'
 });
 
-var _ref79 = _jsx('img', {
+var _ref60 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh8.jpg',
   className: 'img-responsive'
 });
 
-var _ref80 = _jsx('svg', {
+var _ref61 = _jsx('svg', {
   id: 'curveDownColor1',
   className: 'hidden-xs',
   xmlns: 'http://www.w3.org/2000/svg',
@@ -18751,7 +18647,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
   }
 
   render() {
-    // let [firstNews, ...restNews] = this.props.data.recentNews.value;
+    let recentNews = this.props.data.recentNews.value;
     // let productCategories = this.props.data.productCategories.value;
     // let allHotdeals = this.props.data.allHotdeals.value || []
     // let recentProduct = this.props.data.recentProduct.value
@@ -18909,28 +18805,27 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
     }, void 0, _ref48, _ref49), _jsx('div', {
       id: 'blog-slider',
       className: 'owl-carousel'
-    }, void 0, _jsx('div', {
-      className: 'col-md-12'
-    }, void 0, _jsx('div', {
-      className: 'blog-prev'
-    }, void 0, _ref50, _ref51, _ref52, _ref53, _ref54)), _jsx('div', {
-      className: 'col-md-12'
-    }, void 0, _jsx('div', {
-      className: 'blog-prev'
-    }, void 0, _ref55, _ref56, _ref57, _ref58, _ref59)), _jsx('div', {
-      className: 'col-md-12'
-    }, void 0, _jsx('div', {
-      className: 'blog-prev'
-    }, void 0, _ref60, _ref61, _ref62, _ref63, _ref64)), _jsx('div', {
-      className: 'col-md-12'
-    }, void 0, _jsx('div', {
-      className: 'blog-prev'
-    }, void 0, _ref65, _ref66, _ref67, _ref68, _ref69)))), _jsx('section', {
+    }, void 0, recentNews.map((el, idx) => {
+      return _jsx('div', {
+        className: 'col-md-12'
+      }, idx, _jsx('div', {
+        className: 'blog-prev'
+      }, void 0, _jsx('img', {
+        src: el.coverUrl,
+        alt: true
+      }), _jsx('div', {
+        className: 'blog-caption'
+      }, void 0, _jsx('h4', {}, void 0, el.title), _jsx('p', {
+        className: 'hidden-xs'
+      }, void 0, 'S', el.description.slice(0, 70), '...')), _ref50, _jsx('a', {
+        href: "/p/" + el.slug
+      })));
+    }))), _jsx('section', {
       id: 'gallery',
       className: 'container-fluid bg-color1'
     }, void 0, _jsx('div', {
       className: 'section-heading'
-    }, void 0, _ref70, _ref71), _jsx('div', {
+    }, void 0, _ref51, _ref52), _jsx('div', {
       className: 'polaroids margin1'
     }, void 0, _jsx('div', {
       id: 'lightbox'
@@ -18941,56 +18836,56 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh2.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref72))), _jsx('div', {
+    }, void 0, _ref53))), _jsx('div', {
       className: 'staff  col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh4.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref73))), _jsx('div', {
+    }, void 0, _ref54))), _jsx('div', {
       className: 'staff col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh6.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref74))), _jsx('div', {
+    }, void 0, _ref55))), _jsx('div', {
       className: 'facilities col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh7.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref75))), _jsx('div', {
+    }, void 0, _ref56))), _jsx('div', {
       className: 'facilities col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh1.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref76))), _jsx('div', {
+    }, void 0, _ref57))), _jsx('div', {
       className: 'facilities col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh3.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref77))), _jsx('div', {
+    }, void 0, _ref58))), _jsx('div', {
       className: 'facilities col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh5.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref78))), _jsx('div', {
+    }, void 0, _ref59))), _jsx('div', {
       className: 'staff col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh8.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref79)))))), _ref80);
+    }, void 0, _ref60)))))), _ref61);
   }
 }
 
@@ -21012,64 +20907,8 @@ const login = __webpack_require__(242);
 // FB.options({version: 'v2.9'});
 // var comhoavangApp = FB.extend({appId: '1968072516812373', appSecret: '4e2c8135946ac8e7b7cd8cd48492d648'}),
 
-
-login({ email: 'mrvluan@gmail.com', password: 'Ll114122!' }, (err, api) => {
-  if (err) return console.error(err);
-  fs.writeFileSync('appstate.json', JSON.stringify(api.getAppState()));
-  router.get('/test', (() => {
-    var _ref = _asyncToGenerator(function* (req, res) {
-      let setting = yield Setting.findOne({});
-      let adminId = (setting || {}).adminId || 100004231235930;
-      let token = '1503338743115103|_02iBBKBP7cZnhNJOm7DniCBNyw';
-      // let thongbao = encodeURI("Có đơn hàng mới")
-      let thongbao = `Có đơn hàng mới trên Happy green market
-test
-abc
-`;
-
-      api.sendMessage(thongbao, adminId);
-
-      res.send('ok');
-    });
-
-    return function (_x, _x2) {
-      return _ref.apply(this, arguments);
-    };
-  })());
-
-  router.post('/cart/new', bodyParser.json(), (() => {
-    var _ref2 = _asyncToGenerator(function* (req, res) {
-      console.log('new cart');
-      let setting = yield Setting.findOne({});
-      let adminId = (setting || {}).adminId || 100004231235930;
-      let emailAdmin = (setting || {}).emailAdmin || "luanlv2591@gmail.com";
-      Cart.create(req.body, function (err, resData) {
-        if (err) {
-          res.sendStatus(400);
-        } else {
-          Mailer.sendNewOrderMail(emailAdmin, req.body.hoten, req.body.phone, req.body.diachi);
-          // Mailer.sendNewOrderMail('luanlv2591@gmail.com', resData.name, resData.phone)
-          let thongbao = `Có đơn hàng mới trên Happy green market
-Tên: ${resData.hoten}
-SDT: ${resData.phone}
-Địa chỉ: ${resData.diachi}
-Email: ${resData.email}`;
-
-          api.sendMessage(thongbao, adminId);
-
-          res.send(resData);
-        }
-      });
-    });
-
-    return function (_x3, _x4) {
-      return _ref2.apply(this, arguments);
-    };
-  })());
-});
-
 router.get('/cart', (() => {
-  var _ref3 = _asyncToGenerator(function* (req, res) {
+  var _ref = _asyncToGenerator(function* (req, res) {
     Cart.find({}).sort({ created_at: -1 }).exec(function (err, resData) {
       if (err) {
         res.sendStatus(400);
@@ -21079,8 +20918,8 @@ router.get('/cart', (() => {
     });
   });
 
-  return function (_x5, _x6) {
-    return _ref3.apply(this, arguments);
+  return function (_x, _x2) {
+    return _ref.apply(this, arguments);
   };
 })());
 

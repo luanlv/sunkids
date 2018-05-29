@@ -20,7 +20,7 @@ class Home extends React.Component {
   }
 
   render() {
-    // let [firstNews, ...restNews] = this.props.data.recentNews.value;
+    let recentNews = this.props.data.recentNews.value;
     // let productCategories = this.props.data.productCategories.value;
     // let allHotdeals = this.props.data.allHotdeals.value || []
     // let recentProduct = this.props.data.recentProduct.value
@@ -626,78 +626,29 @@ class Home extends React.Component {
             </div>
             {/* Blog Slider */}
             <div id="blog-slider" className="owl-carousel">
-              {/* Blog Post Prev 1 */}
-              <div className="col-md-12">
-                <div className="blog-prev">
-                  {/* Blog Post Image  */}
-                  <img src="/themes/demo/assets/img/blogprev1.jpg" alt />
-                  {/* Blog Post date */}
-                  <div className="date"><span className="day">22</span><span className="month">Jul</span></div>
-                  {/* Blog Caption */}
-                  <div className="blog-caption">
-                    <h4>The Safest toys for your Child</h4>
-                    <p className="hidden-xs">Sed consectetur tortor ut arcu pharetra faucibus. In tristique sollicitudin mi ac congue... </p>
+              {recentNews.map((el, idx) => {
+                return (
+                  <div className="col-md-12" key={idx}>
+                    <div className="blog-prev">
+                      {/* Blog Post Image  */}
+                      <img src={el.coverUrl} alt />
+                      {/* Blog Post date */}
+                      {/*<div className="date"><span className="day">22</span><span className="month">Jul</span></div>*/}
+                      {/* Blog Caption */}
+                      <div className="blog-caption">
+                        <h4>{el.title}</h4>
+                        <p className="hidden-xs">S
+                          {el.description.slice(0, 70)}...
+                        </p>
+                      </div>
+                      <div className="hover" />
+                      <a href={"/p/" + el.slug} />
+                    </div>
+                    {/* /Blog Post Prev */}
                   </div>
-                  <div className="hover" />
-                  <a href="blog-single.html" />
-                </div>
-                {/* /Blog Post Prev */}
-              </div>
-              {/* /col-md */}
-              {/* Blog Post Prev 2 */}
-              <div className="col-md-12">
-                <div className="blog-prev">
-                  {/* Blog Post Image  */}
-                  <img src="/themes/demo/assets/img/blogprev2.jpg" alt />
-                  {/* Blog Post date */}
-                  <div className="date"><span className="day">18</span><span className="month">Jul</span></div>
-                  {/* Blog Caption */}
-                  <div className="blog-caption">
-                    <h4>Teach your kids these Rules</h4>
-                    <p className="hidden-xs">Sed consectetur tortor ut arcu pharetra faucibus. In tristique sollicitudin mi ac congue... </p>
-                  </div>
-                  <div className="hover" />
-                  <a href="blog-single.html" />
-                </div>
-                {/* /Blog Post Prev */}
-              </div>
-              {/* /col-md */}
-              {/* Blog Post Prev 3 */}
-              <div className="col-md-12">
-                <div className="blog-prev">
-                  {/* Blog Post Image  */}
-                  <img src="/themes/demo/assets/img/blogprev3.jpg" alt />
-                  {/* Blog Post date */}
-                  <div className="date"><span className="day">04</span><span className="month">Jul</span></div>
-                  {/* Blog Caption */}
-                  <div className="blog-caption">
-                    <h4>The Best Nutritious Snacks</h4>
-                    <p className="hidden-xs">Sed consectetur tortor ut arcu pharetra faucibus. In tristique sollicitudin mi ac congue... </p>
-                  </div>
-                  <div className="hover" />
-                  <a href="blog-single.html" />
-                </div>
-                {/* /Blog Post Prev */}
-              </div>
-              {/* /col-md-12 */}
-              {/* Blog Post Prev 4 */}
-              <div className="col-md-12">
-                <div className="blog-prev">
-                  {/* Blog Post Image  */}
-                  <img src="/themes/demo/assets/img/blogprev4.jpg" alt />
-                  {/* Blog Post date */}
-                  <div className="date"><span className="day">24</span><span className="month">Jun</span></div>
-                  {/* Blog Caption */}
-                  <div className="blog-caption">
-                    <h4>10 Most popular Toys of 2017</h4>
-                    <p className="hidden-xs">Sed consectetur tortor ut arcu pharetra faucibus. In tristique sollicitudin mi ac congue... </p>
-                  </div>
-                  <div className="hover" />
-                  <a href="blog-single.html" />
-                </div>
-                {/* /Blog Post Prev */}
-              </div>
-              {/* /col-md-12 */}
+                )
+              })}
+
             </div>
             {/* /blog-slider */}
           </section>

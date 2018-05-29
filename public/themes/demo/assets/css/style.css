@@ -2400,3 +2400,7 @@ a.accordion-toggle.collapsed {
   background: #19AA5F !important;
   color: white !important;
 }
+
+.container img {
+  max-width: 100% !important;
+}
