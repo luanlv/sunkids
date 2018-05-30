@@ -47,8 +47,8 @@ class Contact extends React.Component {
                 <h4>Hoặc bạn có thể liên hệ qua</h4>
                 {/* contact info */}
                 <div className="contact-info ">
-                  <p><i className="fa fa-envelope margin-icon" /><a href="mailto:daycare@emailsite.com">sunkidsvn@gmail.com</a></p>
-                  <p><i className="fa fa-phone margin-icon" />Hotline: 0976.909.201-‭0221 6521999</p>
+                  <p><i className="fa fa-envelope margin-icon" /><a href="mailto:Sunkidsvnedu@gmail.com">Sunkidsvnedu@gmail.com</a></p>
+                  <p><i className="fa fa-phone margin-icon" />Hotline: 0976.909.201-‭0169.876.3095</p>
                   <p><i className="fa fa-map-marker margin-icon" />Địa chỉ: Khu giãn dân An Vỹ- Khoái Châu - Hưng Yên</p>
                 </div>
               </div>

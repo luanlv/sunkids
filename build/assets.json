@@ -12,7 +12,7 @@
     "js": "/assets/checkout.da624bb6.chunk.js"
   },
   "contact": {
-    "js": "/assets/contact.528fb092.chunk.js"
+    "js": "/assets/contact.82a71399.chunk.js"
   },
   "chinhanh": {
     "js": "/assets/chinhanh.8c88d997.chunk.js"
@@ -30,9 +30,9 @@
     "js": "/assets/about.f2b3d1e7.chunk.js"
   },
   "client": {
-    "js": "/assets/client.84c23371.js"
+    "js": "/assets/client.ee4762a0.js"
   },
   "vendor": {
-    "js": "/assets/vendor.b8ac3931.js"
+    "js": "/assets/vendor.07426f39.js"
   }
 }

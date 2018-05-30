@@ -98,8 +98,8 @@ class Layout extends React.Component {
           {/* /.col-md-4 */}
           <div className="col-md-4 res-margin">
             <ul className="list-unstyled footer-icons">
-              <li><i className="fa fa-phone" />0976.909.201-‭0221 6521999</li>
-              <li><i className="fa fa-envelope" />Email: <a href="mailto:your@email.com">sunkidsvn@gmail.com</a></li>
+              <li><i className="fa fa-phone" />0976.909.201-‭0169.876.3095</li>
+              <li><i className="fa fa-envelope" />Email: <a href="mailto:Sunkidsvnedu@gmail.com">Sunkidsvnedu@gmail.com</a></li>
               <li><i className="fa fa-map-marker" /> Khu giãn dân An Vỹ- Khoái Châu - Hưng Yên</li>
               <li><i className="fa fa-clock-o" />Thứ 2 - thứ 7 từ 08:00 sáng tới 21:00 tối</li>
             </ul>

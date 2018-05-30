@@ -331,11 +331,11 @@ var _ref13 = _jsx('div', {
   className: 'list-unstyled footer-icons'
 }, void 0, _jsx('li', {}, void 0, _jsx('i', {
   className: 'fa fa-phone'
-}), '0976.909.201-\u202D0221 6521999'), _jsx('li', {}, void 0, _jsx('i', {
+}), '0976.909.201-\u202D0169.876.3095'), _jsx('li', {}, void 0, _jsx('i', {
   className: 'fa fa-envelope'
 }), 'Email: ', _jsx('a', {
-  href: 'mailto:your@email.com'
-}, void 0, 'sunkidsvn@gmail.com')), _jsx('li', {}, void 0, _jsx('i', {
+  href: 'mailto:Sunkidsvnedu@gmail.com'
+}, void 0, 'Sunkidsvnedu@gmail.com')), _jsx('li', {}, void 0, _jsx('i', {
   className: 'fa fa-map-marker'
 }), ' Khu gi\xE3n d\xE2n An V\u1EF9- Kho\xE1i Ch\xE2u - H\u01B0ng Y\xEAn'), _jsx('li', {}, void 0, _jsx('i', {
   className: 'fa fa-clock-o'
@@ -17770,10 +17770,10 @@ var _ref7 = _jsx('div', {
 }, void 0, _jsx('p', {}, void 0, _jsx('i', {
   className: 'fa fa-envelope margin-icon'
 }), _jsx('a', {
-  href: 'mailto:daycare@emailsite.com'
-}, void 0, 'sunkidsvn@gmail.com')), _jsx('p', {}, void 0, _jsx('i', {
+  href: 'mailto:Sunkidsvnedu@gmail.com'
+}, void 0, 'Sunkidsvnedu@gmail.com')), _jsx('p', {}, void 0, _jsx('i', {
   className: 'fa fa-phone margin-icon'
-}), 'Hotline: 0976.909.201-\u202D0221 6521999'), _jsx('p', {}, void 0, _jsx('i', {
+}), 'Hotline: 0976.909.201-\u202D0169.876.3095'), _jsx('p', {}, void 0, _jsx('i', {
   className: 'fa fa-map-marker margin-icon'
 }), '\u0110\u1ECBa ch\u1EC9: Khu gi\xE3n d\xE2n An V\u1EF9- Kho\xE1i Ch\xE2u - H\u01B0ng Y\xEAn'));
 
@@ -18298,25 +18298,17 @@ var _ref16 = _jsx('img', {
   alt: true
 });
 
-var _ref17 = _jsx('h3', {
-  className: 'testimonial-title'
-}, void 0, 'Ch\u1ECB Ng\u1ECDc Mai', _jsx('small', {}, void 0, 'H\u01B0ng Y\xEAn'));
-
-var _ref18 = _jsx('div', {
+var _ref17 = _jsx('div', {
   className: 'description'
-}, void 0, _jsx('p', {}, void 0, 'Sunkids c\xF3 h\xECnh \u1EA3nh r\u1EA5t sinh \u0111\u1ED9ng, h\u1EA5p d\u1EABn ph\xF9 h\u1EE3p v\u1EDBi t\xE2m l\xFD c\u1EE7a tr\u1EBB n\xEAn m\xECnh kh\xF4ng m\u1EA5t nhi\u1EC1u th\u1EDDi gian \u0111\u1EC3 gi\xFAp con l\xE0m quen. \u0110\u1EBFn gi\u1EDD con m\u1EDBi ch\u1EC9 3 tu\u1ED5i nh\u01B0ng \u0111\xE3 c\xF3 v\u1ED1n t\u1EEB v\u1EF1ng ti\u1EBFng Anh t\u1EDBi h\u01A1n 500 t\u1EEB. M\xECnh r\u1EA5t t\xE2m \u0111\u1EAFc v\xE0 \u0111\xE3 gi\u1EDBi thi\u1EC7u Sunkids \u0111\u1EBFn nhi\u1EC1u b\u1EA1n b\xE8 s\u1EED d\u1EE5ng'));
+}, void 0, _jsx('p', {}, void 0, 'Sunkids c\xF3 h\xECnh \u1EA3nh r\u1EA5t sinh \u0111\u1ED9ng, h\u1EA5p d\u1EABn ph\xF9 h\u1EE3p v\u1EDBi t\xE2m l\xFD c\u1EE7a tr\u1EBB n\xEAn m\xECnh kh\xF4ng m\u1EA5t nhi\u1EC1u th\u1EDDi gian \u0111\u1EC3 gi\xFAp con l\xE0m quen. \u0110\u1EBFn gi\u1EDD con m\u1EDBi ch\u1EC9 5 tu\u1ED5i nh\u01B0ng \u0111\xE3 c\xF3 v\u1ED1n t\u1EEB v\u1EF1ng ti\u1EBFng Anh r\u1EA5t phong ph\xFA. M\xECnh r\u1EA5t t\xE2m \u0111\u1EAFc v\xE0 \u0111\xE3 gi\u1EDBi thi\u1EC7u r\u1EA5t nhi\u1EC1u b\u1EA1n b\xE8 m\xECnh \u0111\u01B0a con \u0111i h\u1ECDc t\u1EA1i Sunkids.'));
 
-var _ref19 = _jsx('img', {
+var _ref18 = _jsx('img', {
   src: '/imgs/5.png',
   className: 'img-circle',
   alt: true
 });
 
-var _ref20 = _jsx('h3', {
-  className: 'testimonial-title'
-}, void 0, 'Ch\u1ECB V\u0169 Hu\u1EC7', _jsx('small', {}, void 0, 'H\u01B0ng Y\xEAn'));
-
-var _ref21 = _jsx('svg', {
+var _ref19 = _jsx('svg', {
   id: 'cloud2',
   className: 'hidden-xs hidden-sm',
   xmlns: 'http://www.w3.org/2000/svg',
@@ -18329,14 +18321,14 @@ var _ref21 = _jsx('svg', {
   d: 'M-5 100 Q 0 20 5 100 Z M0 100 Q 5 0 10 100 M5 100 Q 10 30 15 100 M10 100 Q 15 10 20 100 M15 100 Q 20 30 25 100 M20 100 Q 25 -10 30 100 M25 100 Q 30 10 35 100 M30 100 Q 35 30 40 100 M35 100 Q 40 10 45 100 M40 100 Q 45 50 50 100 M45 100 Q 50 20 55 100 M50 100 Q 55 40 60 100 M55 100 Q 60 60 65 100 M60 100 Q 65 50 70 100 M65 100 Q 70 20 75 100 M70 100 Q 75 45 80 100 M75 100 Q 80 30 85 100 M80 100 Q 85 20 90 100 M85 100 Q 90 50 95 100 M90 100 Q 95 25 100 100 M95 100 Q 100 15 105 100 Z'
 }));
 
-var _ref22 = _jsx('h2', {}, void 0, 'V\u1EC1 ch\xFAng t\xF4i');
+var _ref20 = _jsx('h2', {}, void 0, 'V\u1EC1 ch\xFAng t\xF4i');
 
-var _ref23 = _jsx('img', {
+var _ref21 = _jsx('img', {
   src: '/themes/demo/assets/img/boy1ornament.png',
   alt: true
 });
 
-var _ref24 = _jsx('div', {
+var _ref22 = _jsx('div', {
   role: 'tabpanel',
   className: 'tab-pane active in fade col-lg-12',
   id: 'Section1'
@@ -18352,11 +18344,11 @@ var _ref24 = _jsx('div', {
   className: 'img-curved  center-block img-responsive'
 })));
 
-var _ref25 = _jsx('h4', {
+var _ref23 = _jsx('h4', {
   className: 'text-center'
 }, void 0, 'T\u1EA1i Sunkids, c\xE1c em s\u1EBD \u0111\u01B0\u1EE3c ch\u01A1i v\xE0 tham gia r\u1EA5t nhi\u1EC1u c\xE1c ho\u1EA1t \u0111\u1ED9ng b\u1ED5 tr\u1EE3 cho vi\u1EC7c h\u1ECDc Ti\u1EBFng Anh m\u1ED9t c\xE1ch hi\u1EC7u qu\u1EA3 nh\u01B0:');
 
-var _ref26 = _jsx('div', {
+var _ref24 = _jsx('div', {
   className: 'col-lg-5 margin1'
 }, void 0, _jsx('img', {
   src: '/themes/demo/assets/img/about2.jpg',
@@ -18364,7 +18356,7 @@ var _ref26 = _jsx('div', {
   className: 'img-curved center-block img-responsive'
 }));
 
-var _ref27 = _jsx('div', {
+var _ref25 = _jsx('div', {
   className: 'panel-heading'
 }, void 0, _jsx('h6', {
   className: 'panel-title'
@@ -18375,14 +18367,14 @@ var _ref27 = _jsx('div', {
   href: '#collapse1'
 }, void 0, 'Spanish Classes')));
 
-var _ref28 = _jsx('div', {
+var _ref26 = _jsx('div', {
   id: 'collapse1',
   className: 'panel-collapse collapse in'
 }, void 0, _jsx('div', {
   className: 'panel-body'
 }, void 0, _jsx('p', {}, void 0, 'H\u1EC7 th\u1ED1ng Anh ng\u1EEF qu\u1ED1c t\u1EBF Sunkids \u0111\u01B0\u1EE3c th\xE0nh l\u1EADp v\u1EDBi s\u1EE9 m\u1EC7nh tr\u1EDF th\xE0nh t\u1ED5 ch\u1EE9c gi\xE1o d\u1EE5c Ti\u1EBFng Anh tr\u1EBB em s\u1ED1 1 t\u1EA1i Vi\u1EC7t Nam t\u1EEB nghi\xEAn c\u1EE9u, d\u1EA1y h\u1ECDc cho \u0111\u1EBFn cung c\u1EA5p h\u1EC7 th\u1ED1ng gi\xE1o tr\xECnh ti\xEAu chu\u1EA9n, c\xE1c thi\u1EBFt b\u1ECB h\u1ECDc t\u1EADp ti\u1EBFng Anh hi\u1EC7u qu\u1EA3. T\u1EEB \u0111\xF3 t\u1EA1o ra m\xF4i tr\u01B0\u1EDDng h\u1ECDc t\u1EADp Ti\u1EBFng Anh to\xE0n di\u1EC7n nh\u1EA5t cho tr\u1EBB em Vi\u1EC7t Nam.'), _jsx('p', {}, void 0, 'T\u1EA1i Sunkids, ch\xFAng t\xF4i cung c\u1EA5p c\xE1c kh\xF3a h\u1ECDc Ti\u1EBFng Anh tr\u1EBB em theo ti\xEAu chu\u1EA9n qu\u1ED1c t\u1EBF, bao g\u1ED3m:', _jsx('br', {}), '- Ti\u1EBFng anh m\u1EA7m non (T\u1EEB 3-5 tu\u1ED5i)', _jsx('br', {}), '- Ti\u1EBFng anh ti\u1EC3u h\u1ECDc (T\u1EEB 6-10 tu\u1ED5i)', _jsx('br', {}), '- Ti\u1EBFng anh thi\u1EBFu ni\xEAn (T\u1EEB 11-15 tu\u1ED5i)')));
 
-var _ref29 = _jsx('div', {
+var _ref27 = _jsx('div', {
   className: 'panel-heading'
 }, void 0, _jsx('h6', {
   className: 'panel-title'
@@ -18393,14 +18385,14 @@ var _ref29 = _jsx('div', {
   href: '#collapse2'
 }, void 0, 'Music Classes')));
 
-var _ref30 = _jsx('div', {
+var _ref28 = _jsx('div', {
   id: 'collapse2',
   className: 'panel-collapse collapse'
 }, void 0, _jsx('div', {
   className: 'panel-body'
 }, void 0, _jsx('p', {}, void 0, 'Felis tiam non metus Placerat a ultricies a, posuere lorem ipseut lincas psuiem t volut pat phas ellus ac sodales Lorem ipsum dolor sit amet, consectetur adipisicing elit uasi quidem minus id omnis a nibh fusce mollis eget metus auguen unc vel mauris ultricies, vest ibulum')));
 
-var _ref31 = _jsx('div', {
+var _ref29 = _jsx('div', {
   className: 'panel'
 }, void 0, _jsx('div', {
   className: 'panel-heading'
@@ -18418,11 +18410,11 @@ var _ref31 = _jsx('div', {
   className: 'panel-body'
 }, void 0, _jsx('p', {}, void 0, 'Felis tiam non metus Placerat a ultricies a, posuere lorem ipseut lincas psuiem t volut pat phas ellus ac sodales Lorem ipsum dolor sit amet, consectetur adipisicing elit uasi quidem minus id omnis a nibh fusce mollis eget metus auguen unc vel mauris ultricies, vest ibulum'))));
 
-var _ref32 = _jsx('h3', {
+var _ref30 = _jsx('h3', {
   className: 'text-center'
 }, void 0, 'Daily Meals');
 
-var _ref33 = _jsx('div', {
+var _ref31 = _jsx('div', {
   className: 'panel-heading'
 }, void 0, _jsx('h6', {
   className: 'panel-title'
@@ -18433,7 +18425,7 @@ var _ref33 = _jsx('div', {
   href: '#collapse4'
 }, void 0, 'Breakfast')));
 
-var _ref34 = _jsx('div', {
+var _ref32 = _jsx('div', {
   id: 'collapse4',
   className: 'panel-collapse collapse in'
 }, void 0, _jsx('div', {
@@ -18448,7 +18440,7 @@ var _ref34 = _jsx('div', {
   className: 'custom no-margin'
 }, void 0, _jsx('li', {}, void 0, 'Fruits'), _jsx('li', {}, void 0, 'Cheese Sandwich (Gluten Free Option Available)'), _jsx('li', {}, void 0, 'Fresh Orange Juice'), _jsx('li', {}, void 0, 'Crackers'), _jsx('li', {}, void 0, 'Fruit Salad')))));
 
-var _ref35 = _jsx('div', {
+var _ref33 = _jsx('div', {
   className: 'panel-heading'
 }, void 0, _jsx('h6', {
   className: 'panel-title'
@@ -18459,7 +18451,7 @@ var _ref35 = _jsx('div', {
   href: '#collapse5'
 }, void 0, 'Lunch')));
 
-var _ref36 = _jsx('div', {
+var _ref34 = _jsx('div', {
   id: 'collapse5',
   className: 'panel-collapse collapse'
 }, void 0, _jsx('div', {
@@ -18474,7 +18466,7 @@ var _ref36 = _jsx('div', {
   className: 'custom no-margin'
 }, void 0, _jsx('li', {}, void 0, 'Fruits'), _jsx('li', {}, void 0, 'Cheese Sandwich (Gluten Free Option Available)'), _jsx('li', {}, void 0, 'Fresh Orange Juice'), _jsx('li', {}, void 0, 'Crackers'), _jsx('li', {}, void 0, 'Fruit Salad')))));
 
-var _ref37 = _jsx('div', {
+var _ref35 = _jsx('div', {
   className: 'panel'
 }, void 0, _jsx('div', {
   className: 'panel-heading'
@@ -18500,7 +18492,7 @@ var _ref37 = _jsx('div', {
   className: 'custom no-margin'
 }, void 0, _jsx('li', {}, void 0, 'Fruits'), _jsx('li', {}, void 0, 'Cheese Sandwich (Gluten Free Option Available)'), _jsx('li', {}, void 0, 'Fresh Orange Juice'), _jsx('li', {}, void 0, 'Crackers'), _jsx('li', {}, void 0, 'Fruit Salad'))))));
 
-var _ref38 = _jsx('div', {
+var _ref36 = _jsx('div', {
   className: 'col-lg-5 margin1'
 }, void 0, _jsx('img', {
   src: '/themes/demo/assets/img/about3.jpg',
@@ -18508,13 +18500,13 @@ var _ref38 = _jsx('div', {
   className: 'img-curved center-block img-responsive'
 }));
 
-var _ref39 = _jsx('h2', {}, void 0, 'Kh\xF3a h\u1ECDc');
+var _ref37 = _jsx('h2', {}, void 0, 'Kh\xF3a h\u1ECDc');
 
-var _ref40 = _jsx('div', {
+var _ref38 = _jsx('div', {
   className: 'hr'
 });
 
-var _ref41 = _jsx('div', {
+var _ref39 = _jsx('div', {
   className: 'pricingTable-header'
 }, void 0, _jsx('span', {
   className: 'title'
@@ -18524,11 +18516,11 @@ var _ref41 = _jsx('div', {
   className: 'month'
 }, void 0, 'cho 3 th\xE1ng'));
 
-var _ref42 = _jsx('ul', {
+var _ref40 = _jsx('ul', {
   className: 'pricing-content'
 }, void 0, _jsx('li', {}, void 0, '\u01AFu \u0111\xE3i khai tr\u01B0\u01A1ng gi\u1EA3m 40% c\xF2n 950.000 vn\u0111'), _jsx('li', {}, void 0, 'T\u1EB7ng s\u1ED5 li\xEAn l\u1EA1c tr\u1ECB gi\xE1 30.000 VN\u0110'), _jsx('li', {}, void 0, 'T\u1EB7ng 1 \xE1o ph\xF4ng xinh x\u1EAFn tr\u1ECB gi\xE1 150.000 VN\u0110'), _jsx('li', {}, void 0, 'T\u1EB7ng 1 balo xinh x\u1EAFn tr\u1ECB gi\xE1 160.000 VN\u0110 (\u0111\u0103ng k\xFD 6 th\xE1ng)'), _jsx('li', {}, void 0, 'T\u1EB7ng 1 b\u1ED9 gi\xE1o tr\xECnh tr\u1ECB gi\xE1 300.000 VN\u0110 (\u0111\u0103ng k\xFD 12 th\xE1ng)'));
 
-var _ref43 = _jsx('div', {
+var _ref41 = _jsx('div', {
   className: 'pricingTable-header'
 }, void 0, _jsx('span', {
   className: 'title'
@@ -18538,11 +18530,11 @@ var _ref43 = _jsx('div', {
   className: 'month'
 }, void 0, 'cho 3 th\xE1ng'));
 
-var _ref44 = _jsx('ul', {
+var _ref42 = _jsx('ul', {
   className: 'pricing-content'
 }, void 0, _jsx('li', {}, void 0, '\u01AFu \u0111\xE3i khai tr\u01B0\u01A1ng gi\u1EA3m 40% c\xF2n 1.580.000 vn\u0111'), _jsx('li', {}, void 0, 'T\u1EB7ng s\u1ED5 li\xEAn l\u1EA1c tr\u1ECB gi\xE1 30.000 VN\u0110'), _jsx('li', {}, void 0, 'T\u1EB7ng 1 \xE1o ph\xF4ng xinh x\u1EAFn tr\u1ECB gi\xE1 150.000 VN\u0110'), _jsx('li', {}, void 0, 'T\u1EB7ng 1 balo xinh x\u1EAFn tr\u1ECB gi\xE1 160.000 VN\u0110 (\u0111\u0103ng k\xFD 6 th\xE1ng)'), _jsx('li', {}, void 0, 'T\u1EB7ng 1 b\u1ED9 gi\xE1o tr\xECnh tr\u1ECB gi\xE1 300.000 VN\u0110 (\u0111\u0103ng k\xFD 12 th\xE1ng)'));
 
-var _ref45 = _jsx('div', {
+var _ref43 = _jsx('div', {
   className: 'pricingTable-header'
 }, void 0, _jsx('span', {
   className: 'title'
@@ -18552,82 +18544,82 @@ var _ref45 = _jsx('div', {
   className: 'month'
 }, void 0, 'cho 3 th\xE1ng'));
 
-var _ref46 = _jsx('ul', {
+var _ref44 = _jsx('ul', {
   className: 'pricing-content'
 }, void 0, _jsx('li', {}, void 0, '\u01AFu \u0111\xE3i khai tr\u01B0\u01A1ng gi\u1EA3m 40% c\xF2n 1.580.000 vn\u0111'), _jsx('li', {}, void 0, 'T\u1EB7ng s\u1ED5 li\xEAn l\u1EA1c tr\u1ECB gi\xE1 30.000 VN\u0110'), _jsx('li', {}, void 0, 'T\u1EB7ng 1 \xE1o ph\xF4ng xinh x\u1EAFn tr\u1ECB gi\xE1 150.000 VN\u0110'), _jsx('li', {}, void 0, 'T\u1EB7ng 1 balo xinh x\u1EAFn tr\u1ECB gi\xE1 160.000 VN\u0110 (\u0111\u0103ng k\xFD 6 th\xE1ng)'), _jsx('li', {}, void 0, 'T\u1EB7ng 1 b\u1ED9 gi\xE1o tr\xECnh tr\u1ECB gi\xE1 300.000 VN\u0110 (\u0111\u0103ng k\xFD 12 th\xE1ng)'));
 
-var _ref47 = _jsx('img', {
+var _ref45 = _jsx('img', {
   src: '/themes/demo/assets/img/boy2ornament.png',
   alt: true
 });
 
-var _ref48 = _jsx('h2', {}, void 0, 'Tin t\u1EE9c m\u1EDBi nh\u1EA5t');
+var _ref46 = _jsx('h2', {}, void 0, 'Tin t\u1EE9c m\u1EDBi nh\u1EA5t');
 
-var _ref49 = _jsx('div', {
+var _ref47 = _jsx('div', {
   className: 'hr'
 });
 
-var _ref50 = _jsx('div', {
+var _ref48 = _jsx('div', {
   className: 'hover'
 });
 
-var _ref51 = _jsx('h2', {
+var _ref49 = _jsx('h2', {
   className: 'text-light'
 }, void 0, 'Gallery');
 
-var _ref52 = _jsx('div', {
+var _ref50 = _jsx('div', {
   className: 'hr light'
 });
 
-var _ref53 = _jsx('img', {
+var _ref51 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh2.jpg',
   className: 'img-responsive'
 });
 
-var _ref54 = _jsx('img', {
+var _ref52 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh4.jpg',
   className: 'img-responsive'
 });
 
-var _ref55 = _jsx('img', {
+var _ref53 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh6.jpg',
   className: 'img-responsive'
 });
 
-var _ref56 = _jsx('img', {
+var _ref54 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh7.jpg',
   className: 'img-responsive'
 });
 
-var _ref57 = _jsx('img', {
+var _ref55 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh1.jpg',
   className: 'img-responsive'
 });
 
-var _ref58 = _jsx('img', {
+var _ref56 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh3.jpg',
   className: 'img-responsive'
 });
 
-var _ref59 = _jsx('img', {
+var _ref57 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh5.jpg',
   className: 'img-responsive'
 });
 
-var _ref60 = _jsx('img', {
+var _ref58 = _jsx('img', {
   alt: true,
   src: '/themes/demo/assets/img/gallery/anh8.jpg',
   className: 'img-responsive'
 });
 
-var _ref61 = _jsx('svg', {
+var _ref59 = _jsx('svg', {
   id: 'curveDownColor1',
   className: 'hidden-xs',
   xmlns: 'http://www.w3.org/2000/svg',
@@ -18720,22 +18712,34 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
     }, void 0, _jsx('div', {
       className: 'testimonial'
     }, void 0, _ref15, _jsx('div', {
-      className: 'testimonial-review'
-    }, void 0, _ref16, _ref17)), _jsx('div', {
+      className: 'testimonial-review',
+      style: { maxWidth: '100px' }
+    }, void 0, _ref16), _jsx('h3', {
+      className: 'testimonial-title',
+      style: { display: 'inline-block', fontSize: 18, marginTop: 30 }
+    }, void 0, 'Ch\u1ECB Ng\u1ECDc Mai', _jsx('small', {
+      style: { color: 'white' }
+    }, void 0, 'H\u01B0ng Y\xEAn'))), _jsx('div', {
       className: 'testimonial'
-    }, void 0, _ref18, _jsx('div', {
-      className: 'testimonial-review'
-    }, void 0, _ref19, _ref20))))), _ref21, _jsx('section', {
+    }, void 0, _ref17, _jsx('div', {
+      className: 'testimonial-review',
+      style: { maxWidth: '100px' }
+    }, void 0, _ref18), _jsx('h3', {
+      className: 'testimonial-title',
+      style: { display: 'inline-block', fontSize: 18, marginTop: 30 }
+    }, void 0, 'Ch\u1ECB V\u0169 Hu\u1EC7', _jsx('small', {
+      style: { color: 'white' }
+    }, void 0, 'H\u01B0ng Y\xEAn')))))), _ref19, _jsx('section', {
       id: 'about',
       className: 'container-fluid'
     }, void 0, _jsx('div', {
       className: 'section-heading'
-    }, void 0, _ref22), _jsx('div', {
+    }, void 0, _ref20), _jsx('div', {
       className: 'parallax-object2 hidden-sm hidden-xs',
       'data-0': 'opacity:1;',
       'data-100': 'transform:translatey( 40%);',
       'data-center-center': 'transform:translatey(-60%);'
-    }, void 0, _ref23), _jsx('div', {
+    }, void 0, _ref21), _jsx('div', {
       className: 'container'
     }, void 0, _jsx('div', {
       className: 'col-md-12 col-centered'
@@ -18744,29 +18748,29 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
       role: 'tabpanel'
     }, void 0, _jsx('div', {
       className: 'tab-content'
-    }, void 0, _ref24, _jsx('div', {
+    }, void 0, _ref22, _jsx('div', {
       role: 'tabpanel',
       className: 'tab-pane fade col-lg-12',
       id: 'Section2'
-    }, void 0, _ref25, _ref26, _jsx('div', {
+    }, void 0, _ref23, _ref24, _jsx('div', {
       className: 'panel-group col-lg-7 margin1',
       id: 'accordion'
     }, void 0, _jsx('div', {
       className: 'panel'
-    }, void 0, _ref27, _ref28), _jsx('div', {
+    }, void 0, _ref25, _ref26), _jsx('div', {
       className: 'panel'
-    }, void 0, _ref29, _ref30), _ref31)), _jsx('div', {
+    }, void 0, _ref27, _ref28), _ref29)), _jsx('div', {
       role: 'tabpanel',
       className: 'tab-pane fade col-lg-12',
       id: 'Section3'
-    }, void 0, _ref32, _jsx('div', {
+    }, void 0, _ref30, _jsx('div', {
       className: 'panel-group col-lg-7 margin1',
       id: 'accordion2'
     }, void 0, _jsx('div', {
       className: 'panel'
-    }, void 0, _ref33, _ref34), _jsx('div', {
+    }, void 0, _ref31, _ref32), _jsx('div', {
       className: 'panel'
-    }, void 0, _ref35, _ref36), _ref37), _ref38)))))), _jsx('section', {
+    }, void 0, _ref33, _ref34), _ref35), _ref36)))))), _jsx('section', {
       id: 'call-to-action2',
       className: 'container-fluid small-section',
       'data-center': 'background-position: 50% 0px;',
@@ -18778,21 +18782,21 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
       className: 'container-fluid'
     }, void 0, _jsx('div', {
       className: 'section-heading'
-    }, void 0, _ref39, _ref40), _jsx('div', {
+    }, void 0, _ref37, _ref38), _jsx('div', {
       className: 'container'
     }, void 0, _jsx('div', {
       className: 'col-md-4 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'pricingTable'
-    }, void 0, _ref41, _ref42)), _jsx('div', {
+    }, void 0, _ref39, _ref40)), _jsx('div', {
       className: 'col-md-4 col-sm-6 res-margin'
     }, void 0, _jsx('div', {
       className: 'pricingTable'
-    }, void 0, _ref43, _ref44)), _jsx('div', {
+    }, void 0, _ref41, _ref42)), _jsx('div', {
       className: 'col-md-4 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'pricingTable'
-    }, void 0, _ref45, _ref46))))), _jsx('section', {
+    }, void 0, _ref43, _ref44))))), _jsx('section', {
       id: 'blog-preview',
       className: 'container-fluid'
     }, void 0, _jsx('div', {
@@ -18800,9 +18804,9 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
       'data-0': 'opacity:1;',
       'data-100': 'transform:translatey(70%);',
       'data-center-center': 'transform:translatey(-70%);'
-    }, void 0, _ref47), _jsx('div', {
+    }, void 0, _ref45), _jsx('div', {
       className: 'section-heading'
-    }, void 0, _ref48, _ref49), _jsx('div', {
+    }, void 0, _ref46, _ref47), _jsx('div', {
       id: 'blog-slider',
       className: 'owl-carousel'
     }, void 0, recentNews.map((el, idx) => {
@@ -18817,7 +18821,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         className: 'blog-caption'
       }, void 0, _jsx('h4', {}, void 0, el.title), _jsx('p', {
         className: 'hidden-xs'
-      }, void 0, el.description.slice(0, 70), '...')), _ref50, _jsx('a', {
+      }, void 0, el.description.slice(0, 70), '...')), _ref48, _jsx('a', {
         href: "/p/" + el.slug
       })));
     }))), _jsx('section', {
@@ -18825,7 +18829,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
       className: 'container-fluid bg-color1'
     }, void 0, _jsx('div', {
       className: 'section-heading'
-    }, void 0, _ref51, _ref52), _jsx('div', {
+    }, void 0, _ref49, _ref50), _jsx('div', {
       className: 'polaroids margin1'
     }, void 0, _jsx('div', {
       id: 'lightbox'
@@ -18836,56 +18840,56 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh2.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref53))), _jsx('div', {
+    }, void 0, _ref51))), _jsx('div', {
       className: 'staff  col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh4.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref54))), _jsx('div', {
+    }, void 0, _ref52))), _jsx('div', {
       className: 'staff col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh6.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref55))), _jsx('div', {
+    }, void 0, _ref53))), _jsx('div', {
       className: 'facilities col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh7.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref56))), _jsx('div', {
+    }, void 0, _ref54))), _jsx('div', {
       className: 'facilities col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh1.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref57))), _jsx('div', {
+    }, void 0, _ref55))), _jsx('div', {
       className: 'facilities col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh3.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref58))), _jsx('div', {
+    }, void 0, _ref56))), _jsx('div', {
       className: 'facilities col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh5.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref59))), _jsx('div', {
+    }, void 0, _ref57))), _jsx('div', {
       className: 'staff col-lg-3 col-md-6 col-sm-6'
     }, void 0, _jsx('div', {
       className: 'polaroid-item'
     }, void 0, _jsx('a', {
       href: '#themes/demo/assets/img/gallery/anh8.jpg',
       'data-gal': 'prettyPhoto[gallery]'
-    }, void 0, _ref60)))))), _ref61);
+    }, void 0, _ref58)))))), _ref59);
   }
 }
 

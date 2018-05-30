@@ -185,33 +185,34 @@ class Home extends React.Component {
                         Mình đã cho con làm quen với với tiếng Anh từ năm 3 tuổi nhưng chỉ khi được học Sunkids thì con mới thực sự yêu thích tiếng Anh. Vừa được học, vừa được chơi nên con rất hào hứng, hằng ngày đều tự học mà không cần bố mẹ phải nhắc nhở. Bây giờ, con phát âm rất chuẩn, còn chỉnh được cho cả bố mẹ nữa. Cám ơn Sunkids rất nhiều!
                       </p>
                     </div>
-                    <div className="testimonial-review">
+                    <div className="testimonial-review" style={{maxWidth: '100px'}}>
                       {/* Testimonial image */}
                       <img src="/imgs/3.png" className="img-circle" alt />
                       {/* Testimonial title*/}
-                      <h3 className="testimonial-title">
-                        Chị Ngọc Mai
-                        <small>Hưng Yên</small>
-                      </h3>
                     </div>
+                    <h3 className="testimonial-title" style={{display: 'inline-block', fontSize: 18, marginTop: 30}}>
+                      Chị Ngọc Mai
+                      <small style={{color: 'white'}}>Hưng Yên</small>
+                    </h3>
+
                   </div>
                   {/* /Testimonial 1 */}
                   {/* Testimonial 2 */}
                   <div className="testimonial">
                     <div className="description">
                       <p>
-                        Sunkids có hình ảnh rất sinh động, hấp dẫn phù hợp với tâm lý của trẻ nên mình không mất nhiều thời gian để giúp con làm quen. Đến giờ con mới chỉ 3 tuổi nhưng đã có vốn từ vựng tiếng Anh tới hơn 500 từ. Mình rất tâm đắc và đã giới thiệu Sunkids đến nhiều bạn bè sử dụng
+                        Sunkids có hình ảnh rất sinh động, hấp dẫn phù hợp với tâm lý của trẻ nên mình không mất nhiều thời gian để giúp con làm quen. Đến giờ con mới chỉ 5 tuổi nhưng đã có vốn từ vựng tiếng Anh rất phong phú. Mình rất tâm đắc và đã giới thiệu rất nhiều bạn bè mình đưa con đi học tại Sunkids.
                       </p>
                     </div>
-                    <div className="testimonial-review">
+                    <div className="testimonial-review" style={{maxWidth: '100px'}}>
                       {/* Testimonial image */}
                       <img src="/imgs/5.png" className="img-circle" alt />
                       {/* Testimonial title */}
-                      <h3 className="testimonial-title">
-                        Chị Vũ Huệ
-                        <small>Hưng Yên</small>
-                      </h3>
                     </div>
+                    <h3 className="testimonial-title" style={{display: 'inline-block', fontSize: 18, marginTop: 30}}>
+                      Chị Vũ Huệ
+                      <small style={{color: 'white'}}>Hưng Yên</small>
+                    </h3>
                   </div>
                   {/* /Testimonial 2 */}
                   {/* Testimonial 3 */}
