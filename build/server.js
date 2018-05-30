@@ -18817,7 +18817,7 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
         className: 'blog-caption'
       }, void 0, _jsx('h4', {}, void 0, el.title), _jsx('p', {
         className: 'hidden-xs'
-      }, void 0, 'S', el.description.slice(0, 70), '...')), _ref50, _jsx('a', {
+      }, void 0, el.description.slice(0, 70), '...')), _ref50, _jsx('a', {
         href: "/p/" + el.slug
       })));
     }))), _jsx('section', {

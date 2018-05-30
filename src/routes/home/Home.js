@@ -637,7 +637,7 @@ class Home extends React.Component {
                       {/* Blog Caption */}
                       <div className="blog-caption">
                         <h4>{el.title}</h4>
-                        <p className="hidden-xs">S
+                        <p className="hidden-xs">
                           {el.description.slice(0, 70)}...
                         </p>
                       </div>
