@@ -337,7 +337,7 @@ var _ref13 = _jsx('div', {
   href: 'mailto:Sunkidsvnedu@gmail.com'
 }, void 0, 'Sunkidsvnedu@gmail.com')), _jsx('li', {}, void 0, _jsx('i', {
   className: 'fa fa-map-marker'
-}), ' Khu gi\xE3n d\xE2n An V\u1EF9- Kho\xE1i Ch\xE2u - H\u01B0ng Y\xEAn'), _jsx('li', {}, void 0, _jsx('i', {
+}), ' 527 - Nguy\u1EC5n V\u0103n Linh - Phu\u1EDDng An T\u1EA3o - TP H\u01B0ng Y\xEAn'), _jsx('li', {}, void 0, _jsx('i', {
   className: 'fa fa-clock-o'
 }), 'Th\u1EE9 2 - th\u1EE9 7 t\u1EEB 08:00 s\xE1ng t\u1EDBi 21:00 t\u1ED1i')));
 
@@ -2788,61 +2788,66 @@ var _ref7 = _jsx('link', {
 });
 
 var _ref8 = _jsx('link', {
+  rel: 'stylesheet',
+  href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
+});
+
+var _ref9 = _jsx('link', {
   href: '/themes/demo/assets/fonts/glyphicons/bootstrap-glyphicons.css',
   rel: 'stylesheet',
   type: 'text/css'
 });
 
-var _ref9 = _jsx('link', {
+var _ref10 = _jsx('link', {
   href: '/themes/demo/assets/fonts/flaticons/flaticon.css',
   rel: 'stylesheet',
   type: 'text/css'
 });
 
-var _ref10 = _jsx('link', {
+var _ref11 = _jsx('link', {
   href: 'https://fonts.googleapis.com/css?family=Baloo|Lato:400,700,900',
   rel: 'stylesheet'
 });
 
-var _ref11 = _jsx('link', {
+var _ref12 = _jsx('link', {
   href: '/themes/demo/assets/css/style.css',
   rel: 'stylesheet'
 });
 
-var _ref12 = _jsx('link', {
+var _ref13 = _jsx('link', {
   rel: 'stylesheet',
   href: '/themes/demo/assets/css/plugins.css'
 });
 
-var _ref13 = _jsx('link', {
+var _ref14 = _jsx('link', {
   href: '/themes/demo/assets/styles/maincolors.css',
   rel: 'stylesheet'
 });
 
-var _ref14 = _jsx('link', {
+var _ref15 = _jsx('link', {
   rel: 'stylesheet',
   href: '/themes/demo/assets/layerslider/css/layerslider.css'
 });
 
-var _ref15 = _jsx('link', {
+var _ref16 = _jsx('link', {
   rel: 'apple-touch-icon',
   sizes: '72x72',
   href: 'http://ingridkuhn.com/apple-icon-72x72.png'
 });
 
-var _ref16 = _jsx('link', {
+var _ref17 = _jsx('link', {
   rel: 'apple-touch-icon',
   sizes: '114x114',
   href: 'http://ingridkuhn.com/apple-icon-114x114.png'
 });
 
-var _ref17 = _jsx('link', {
+var _ref18 = _jsx('link', {
   rel: 'shortcut icon',
   href: 'favicon.ico',
   type: 'image/x-icon'
 });
 
-var _ref18 = _jsx('link', {
+var _ref19 = _jsx('link', {
   rel: 'stylesheet',
   id: 'switcher-css',
   type: 'text/css',
@@ -2850,7 +2855,7 @@ var _ref18 = _jsx('link', {
   media: 'all'
 });
 
-var _ref19 = _jsx('link', {
+var _ref20 = _jsx('link', {
   rel: 'alternate stylesheet',
   type: 'text/css',
   href: '/themes/demo/assets/styles/maincolors.css',
@@ -2858,7 +2863,7 @@ var _ref19 = _jsx('link', {
   media: 'all'
 });
 
-var _ref20 = _jsx('link', {
+var _ref21 = _jsx('link', {
   rel: 'alternate stylesheet',
   type: 'text/css',
   href: '/themes/demo/assets/styles/cuteandbright.css',
@@ -2866,7 +2871,7 @@ var _ref20 = _jsx('link', {
   media: 'all'
 });
 
-var _ref21 = _jsx('link', {
+var _ref22 = _jsx('link', {
   rel: 'alternate stylesheet',
   type: 'text/css',
   href: '/themes/demo/assets/styles/pinkandblue.css',
@@ -2874,7 +2879,7 @@ var _ref21 = _jsx('link', {
   media: 'all'
 });
 
-var _ref22 = _jsx('link', {
+var _ref23 = _jsx('link', {
   rel: 'alternate stylesheet',
   type: 'text/css',
   href: '/themes/demo/assets/styles/sweetpastel.css',
@@ -2882,37 +2887,37 @@ var _ref22 = _jsx('link', {
   media: 'all'
 });
 
-var _ref23 = _jsx('div', {
+var _ref24 = _jsx('div', {
   id: 'fb-root'
 });
 
-var _ref24 = _jsx('script', {
+var _ref25 = _jsx('script', {
   src: '/themes/demo/assets/js/jquery.min.js'
 });
 
-var _ref25 = _jsx('script', {
+var _ref26 = _jsx('script', {
   src: '/themes/demo/assets/js/bootstrap.min.js'
 });
 
-var _ref26 = _jsx('script', {
+var _ref27 = _jsx('script', {
   src: '/themes/demo/assets/js/plugins.js'
 });
 
-var _ref27 = _jsx('script', {
+var _ref28 = _jsx('script', {
   src: '/themes/demo/assets/js/prefixfree.js'
 });
 
-var _ref28 = _jsx('script', {
+var _ref29 = _jsx('script', {
   src: '/themes/demo/assets/layerslider/js/layerslider.kreaturamedia.jquery.js',
   type: 'text/javascript'
 });
 
-var _ref29 = _jsx('script', {
+var _ref30 = _jsx('script', {
   src: 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.js',
   type: 'text/javascript'
 });
 
-var _ref30 = _jsx('script', {
+var _ref31 = _jsx('script', {
   src: '/themes/demo/assets/js/main.js'
 });
 
@@ -2921,7 +2926,7 @@ function Html(props) {
   return _jsx('html', {
     className: 'no-js',
     lang: props.lang
-  }, void 0, _jsx('head', {}, void 0, _ref, _ref2, _ref3, _ref4, _ref5, _ref6, _ref7, _ref8, _ref9, _ref10, _ref11, _ref12, _ref13, _ref14, _ref15, _ref16, _ref17, _ref18, _ref19, _ref20, _ref21, _ref22, _jsx('link', {
+  }, void 0, _jsx('head', {}, void 0, _ref, _ref2, _ref3, _ref4, _ref5, _ref6, _ref7, _ref8, _ref9, _ref10, _ref11, _ref12, _ref13, _ref14, _ref15, _ref16, _ref17, _ref18, _ref19, _ref20, _ref21, _ref22, _ref23, _jsx('link', {
     rel: 'alternate stylesheet',
     type: 'text/css',
     href: "/css/app.css?v=" + v
@@ -2933,14 +2938,14 @@ function Html(props) {
     id: 'page-top',
     'data-spy': 'scroll',
     'data-target': '.navbar-custom'
-  }, void 0, _ref23, _jsx('script', {
+  }, void 0, _ref24, _jsx('script', {
     dangerouslySetInnerHTML: { __html: "(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.0&appId=1773112352977230&autoLogAppEvents=1'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));" }
   }), _jsx('div', {
     id: 'app',
     dangerouslySetInnerHTML: { __html: children }
   }), _jsx('script', {
     dangerouslySetInnerHTML: { __html: `window.App=${__WEBPACK_IMPORTED_MODULE_2_serialize_javascript___default()(app)}` }
-  }), _ref24, _ref25, _ref26, _ref27, _ref28, _ref29, _ref30, _jsx('script', {
+  }), _ref25, _ref26, _ref27, _ref28, _ref29, _ref30, _ref31, _jsx('script', {
     src: scripts[0] + "?v=" + v
   }), _jsx('script', {
     src: scripts[1] + "?v=" + v
@@ -17775,7 +17780,7 @@ var _ref7 = _jsx('div', {
   className: 'fa fa-phone margin-icon'
 }), 'Hotline: 0976.909.201-\u202D0169.876.3095'), _jsx('p', {}, void 0, _jsx('i', {
   className: 'fa fa-map-marker margin-icon'
-}), '\u0110\u1ECBa ch\u1EC9: Khu gi\xE3n d\xE2n An V\u1EF9- Kho\xE1i Ch\xE2u - H\u01B0ng Y\xEAn'));
+}), '\u0110\u1ECBa ch\u1EC9: 527 - Nguy\u1EC5n V\u0103n Linh - Phu\u1EDDng An T\u1EA3o - TP H\u01B0ng Y\xEAn'));
 
 function Contact(props) {
 

@@ -49,7 +49,7 @@ class Contact extends React.Component {
                 <div className="contact-info ">
                   <p><i className="fa fa-envelope margin-icon" /><a href="mailto:Sunkidsvnedu@gmail.com">Sunkidsvnedu@gmail.com</a></p>
                   <p><i className="fa fa-phone margin-icon" />Hotline: 0976.909.201-‭0169.876.3095</p>
-                  <p><i className="fa fa-map-marker margin-icon" />Địa chỉ: Khu giãn dân An Vỹ- Khoái Châu - Hưng Yên</p>
+                  <p><i className="fa fa-map-marker margin-icon" />Địa chỉ: 527 - Nguyễn Văn Linh - Phuờng An Tảo - TP Hưng Yên</p>
                 </div>
               </div>
             </div>

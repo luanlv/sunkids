@@ -100,7 +100,7 @@ class Layout extends React.Component {
             <ul className="list-unstyled footer-icons">
               <li><i className="fa fa-phone" />0976.909.201-‭0169.876.3095</li>
               <li><i className="fa fa-envelope" />Email: <a href="mailto:Sunkidsvnedu@gmail.com">Sunkidsvnedu@gmail.com</a></li>
-              <li><i className="fa fa-map-marker" /> Khu giãn dân An Vỹ- Khoái Châu - Hưng Yên</li>
+              <li><i className="fa fa-map-marker" /> 527 - Nguyễn Văn Linh - Phuờng An Tảo - TP Hưng Yên</li>
               <li><i className="fa fa-clock-o" />Thứ 2 - thứ 7 từ 08:00 sáng tới 21:00 tối</li>
             </ul>
           </div>
