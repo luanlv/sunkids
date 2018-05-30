@@ -2401,7 +2401,7 @@ a.accordion-toggle.collapsed {
   color: white !important;
 }
 
-.container img {
+#blog img {
   max-width: 100% !important;
 }
 

@@ -24,7 +24,7 @@
     "js": "/assets/sanpham.bfb938dc.chunk.js"
   },
   "newsDetail": {
-    "js": "/assets/newsDetail.4ee45acb.chunk.js"
+    "js": "/assets/newsDetail.a6d08a24.chunk.js"
   },
   "about": {
     "js": "/assets/about.f2b3d1e7.chunk.js"
@@ -33,6 +33,6 @@
     "js": "/assets/client.ee4762a0.js"
   },
   "vendor": {
-    "js": "/assets/vendor.07426f39.js"
+    "js": "/assets/vendor.12aa7c0f.js"
   }
 }

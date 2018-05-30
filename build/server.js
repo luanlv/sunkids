@@ -19971,7 +19971,9 @@ function NewsDetail(props) {
     className: 'container-fluid'
   }, void 0, _jsx('div', {
     className: 'jumbo-heading'
-  }, void 0, _jsx('h1', {}, void 0, news.title)), _jsx('div', {
+  }, void 0, _jsx('h1', {
+    style: { fontSize: 32 }
+  }, void 0, news.title)), _jsx('div', {
     className: 'container'
   }, void 0, _jsx('div', {
     id: 'blog-container',

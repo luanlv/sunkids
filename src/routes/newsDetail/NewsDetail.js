@@ -17,7 +17,7 @@ class NewsDetail extends React.Component {
             <div className="container-fluid">
               <div className="jumbo-heading">
                 {/* Heading */}
-                <h1>{news.title}</h1>
+                <h1 style={{fontSize: 32}}>{news.title}</h1>
               </div>
               {/* /jumbo-heading */}
               {/* Blog Home */}
