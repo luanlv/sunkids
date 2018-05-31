@@ -24,7 +24,7 @@ class Contact extends React.Component {
           <img src="/themes/demo/assets/sunkids_logo.png" alt="" style={{width: '40%', margin: '0 auto'}}/>
         </div>
         <div className="col-md-6">
-          <h3 style={{textAlign: 'center'}}>Bản đồ</h3>
+          <h3 id="map" style={{textAlign: 'center'}}>Bản đồ</h3>
           <iframe src={this.state.map} frameBorder={0} style={{border: 0, width: '100%', height: 400}} allowFullScreen />
         </div>
         <div className="col-md-6">
@@ -40,7 +40,7 @@ class Contact extends React.Component {
               <div id="collapse1" className="panel-collapse collapse in" aria-expanded="true" style={{}}>
                 <div className="panel-body">
                   <div className="list-group">
-                    <a href="#" className={"list-group-item " + (this.state.key === 1 ? "active":"")}
+                    <a href="#map" className={"list-group-item " + (this.state.key === 1 ? "active":"")}
                       onClick={() => {
                         this.setState({
                           key: 1,
@@ -49,7 +49,7 @@ class Contact extends React.Component {
                       }}
                     >Sunkids Khoái Châu</a>
 
-                    <a href="#" className={"list-group-item " + (this.state.key === 2 ? "active":"")}
+                    <a href="#map" className={"list-group-item " + (this.state.key === 2 ? "active":"")}
                        onClick={() => {
                          this.setState({
                            key: 2,
@@ -58,7 +58,7 @@ class Contact extends React.Component {
                        }}
                     >Sunkids Phố Hiến</a>
 
-                    <a href="#" className={"list-group-item " + (this.state.key === 3 ? "active":"")}
+                    <a href="#map" className={"list-group-item " + (this.state.key === 3 ? "active":"")}
                        onClick={() => {
                          this.setState({
                            key: 3,
@@ -67,7 +67,7 @@ class Contact extends React.Component {
                        }}
                     >Sunkids Văn Lâm</a>
 
-                    <a href="#" className={"list-group-item " + (this.state.key === 4 ? "active":"")}
+                    <a href="#map" className={"list-group-item " + (this.state.key === 4 ? "active":"")}
                        onClick={() => {
                          this.setState({
                            key: 4,
@@ -76,7 +76,7 @@ class Contact extends React.Component {
                        }}
                     >Sunkids Bô Thời</a>
 
-                    <a href="#" className={"list-group-item " + (this.state.key === 5 ? "active":"")}
+                    <a href="#map" className={"list-group-item " + (this.state.key === 5 ? "active":"")}
                        onClick={() => {
                          this.setState({
                            key: 5,
@@ -85,7 +85,7 @@ class Contact extends React.Component {
                        }}
                     >Sunkids Mỹ Hào</a>
 
-                    <a href="#" className={"list-group-item " + (this.state.key === 6 ? "active":"")}
+                    <a href="#map" className={"list-group-item " + (this.state.key === 6 ? "active":"")}
                        onClick={() => {
                          this.setState({
                            key: 6,
@@ -94,7 +94,7 @@ class Contact extends React.Component {
                        }}
                     >Sunkids Lạc Hồng</a>
 
-                    <a href="#" className={"list-group-item " + (this.state.key === 7 ? "active":"")}
+                    <a href="#map" className={"list-group-item " + (this.state.key === 7 ? "active":"")}
                        onClick={() => {
                          this.setState({
                            key: 7,
@@ -104,7 +104,7 @@ class Contact extends React.Component {
                     >Sunkids Lạc Đạo</a>
 
 
-                    <a href="#" className={"list-group-item " + (this.state.key === 11 ? "active":"")}
+                    <a href="#map" className={"list-group-item " + (this.state.key === 11 ? "active":"")}
                        onClick={() => {
                          this.setState({
                            key: 11,
@@ -113,7 +113,7 @@ class Contact extends React.Component {
                        }}
                     >Mầm non Vipkids</a>
 
-                    <a href="#" className={"list-group-item " + (this.state.key === 12 ? "active":"")}
+                    <a href="#map" className={"list-group-item " + (this.state.key === 12 ? "active":"")}
                        onClick={() => {
                          this.setState({
                            key: 12,
@@ -139,7 +139,7 @@ class Contact extends React.Component {
                 <div className="panel-body">
                   <div className="list-group">
 
-                    <a href="#" className={"list-group-item " + (this.state.key === 10 ? "active":"")}
+                    <a href="#map" className={"list-group-item " + (this.state.key === 10 ? "active":"")}
                        onClick={() => {
                          this.setState({
                            key: 10,
@@ -164,7 +164,7 @@ class Contact extends React.Component {
                 <div className="panel-body">
                   <div className="list-group">
 
-                    <a href="#" className={"list-group-item " + (this.state.key === 9 ? "active":"")}
+                    <a href="#map" className={"list-group-item " + (this.state.key === 9 ? "active":"")}
                        onClick={() => {
                          this.setState({
                            key: 9,

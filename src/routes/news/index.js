@@ -12,7 +12,7 @@ import Layout from '../../components/Layout';
 import { setData } from '../../actions/data';
 import { showLoading, hideLoading } from 'react-redux-loading-bar'
 
-const title = 'Happy green | Tin tức'
+const title = 'Anh Ngữ Sunkids | Tin tức'
 
 export default {
 

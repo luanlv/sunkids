@@ -68,6 +68,7 @@ class Layout extends React.Component {
               {/*<li><a href="/hoa-hoc">Khóa học</a></li>*/}
               <li><a href="/chi-nhanh">Chi nhánh</a></li>
               <li><a href="/tin-tuc">Tin tức</a></li>
+              <li><a href="/tuyen-dung">Tuyển dụng</a></li>
               {/*<li><a href="#">Tuyển dụng</a></li>*/}
               <li><a href="/lien-he">Liên hệ</a></li>
               {/* <li class="dropdown">

@@ -8,30 +8,28 @@
  */
 
 import React from 'react';
-import Home from './Home';
 import Layout from '../../components/Layout';
 import { setData } from '../../actions/data';
 import { showLoading, hideLoading } from 'react-redux-loading-bar'
 
+const title = 'Anh Ngữ Sunkids | Tin tức'
+
 export default {
 
-  path: '/',
+  path: '/tuyen-dung',
 
   async action({store, fetch, path}) {
-
     store.dispatch(showLoading())
-
     let seoGraphql = 'seo(url: "'+ path +'"){url,title,description,og_title,og_image,og_description}'
-    // let information = 'information{id, services, common, about, home}'
+    // let information = 'information{id, contact, services, common}'
+    let allNews = 'allNews:getAllPosts{title, coverUrl, slug, public, description, view, category, created_at}'
     let recentNews = 'recentNews:get5RecentPost{title, coverUrl, slug, public, description, view, category, created_at}'
-    // let recentNews = 'recentNews:get5RecentPost{title, coverUrl, slug, public, description, view, category, created_at}'
-    let productCategories = 'productCategories:getProductCategories{title, slug, created_at}'
-    let allHotdeals = 'allHotdeals:getAllHotdeal{ coverUrl, category, slug, title, body, donvi, hotdeal,oldPrice, price, view, created_at}'
-    let recentProduct = 'recentProduct:get5RecentProduct{ coverUrl, category, slug, title, body, price, donvi, view, created_at}'
+    let categories = 'categories:getCategories{title, slug, created_at}'
+
     let seo = {}
     const resp = await fetch('/graphql', {
       body: JSON.stringify({
-        query: '{' + seoGraphql + recentNews + productCategories + recentProduct + allHotdeals + '}',
+        query: '{' + seoGraphql + allNews + recentNews + categories + '}',
       }),
     });
     const { data } = await resp.json();
@@ -39,13 +37,14 @@ export default {
     if (!data ) throw new Error('Failed to load data.');
     store.dispatch(setData(data))
     store.dispatch(hideLoading())
-
-    return {
-      title: 'Anh Ngữ Sunkids',
-      component: <Layout data={store.getState().data}>
-        <Home data={store.getState().data} />
-      </Layout>,
-    };
+    return require.ensure([], require => require('./News').default, 'news')
+      .then(News => ({
+        title,
+        description: seo.description || '',
+        seo: seo,
+        chunk: 'news',
+        component: <Layout data={store.getState().data}><News data={store.getState().data} /></Layout>,
+      }));
   },
 
 };
