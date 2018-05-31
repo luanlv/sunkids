@@ -60,7 +60,7 @@ class Html extends React.Component {
           {/* Google fonts */}
           <link href="https://fonts.googleapis.com/css?family=Baloo|Lato:400,700,900" rel="stylesheet" />
           {/* Style CSS */}
-          <link href="/themes/demo/assets/css/style.css" rel="stylesheet" />
+          <link href={"/themes/demo/assets/css/style.css?v=" + v} rel="stylesheet" />
           {/* Plugins CSS */}
           <link rel="stylesheet" href="/themes/demo/assets/css/plugins.css" />
           {/* Color Style CSS */}
@@ -103,6 +103,7 @@ class Html extends React.Component {
         {/*<script src="/themes/demo/assets/switcher/js/bootstrap-select.js"/>*/}
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.js" type="text/javascript"/>
         {/*<script src="/themes/demo/assets/switcher/js/dmss.js"/>*/}
+        <script src="/jquery.imagemapster.min.js" type="text/javascript" />
         <script src="/themes/demo/assets/js/main.js"/>
           <script  src={scripts[0] + "?v=" + v } />
           <script  src={scripts[1] + "?v=" + v } />

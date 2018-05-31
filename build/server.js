@@ -2810,44 +2810,39 @@ var _ref11 = _jsx('link', {
 });
 
 var _ref12 = _jsx('link', {
-  href: '/themes/demo/assets/css/style.css',
-  rel: 'stylesheet'
-});
-
-var _ref13 = _jsx('link', {
   rel: 'stylesheet',
   href: '/themes/demo/assets/css/plugins.css'
 });
 
-var _ref14 = _jsx('link', {
+var _ref13 = _jsx('link', {
   href: '/themes/demo/assets/styles/maincolors.css',
   rel: 'stylesheet'
 });
 
-var _ref15 = _jsx('link', {
+var _ref14 = _jsx('link', {
   rel: 'stylesheet',
   href: '/themes/demo/assets/layerslider/css/layerslider.css'
 });
 
-var _ref16 = _jsx('link', {
+var _ref15 = _jsx('link', {
   rel: 'apple-touch-icon',
   sizes: '72x72',
   href: 'http://ingridkuhn.com/apple-icon-72x72.png'
 });
 
-var _ref17 = _jsx('link', {
+var _ref16 = _jsx('link', {
   rel: 'apple-touch-icon',
   sizes: '114x114',
   href: 'http://ingridkuhn.com/apple-icon-114x114.png'
 });
 
-var _ref18 = _jsx('link', {
+var _ref17 = _jsx('link', {
   rel: 'shortcut icon',
   href: 'favicon.ico',
   type: 'image/x-icon'
 });
 
-var _ref19 = _jsx('link', {
+var _ref18 = _jsx('link', {
   rel: 'stylesheet',
   id: 'switcher-css',
   type: 'text/css',
@@ -2855,7 +2850,7 @@ var _ref19 = _jsx('link', {
   media: 'all'
 });
 
-var _ref20 = _jsx('link', {
+var _ref19 = _jsx('link', {
   rel: 'alternate stylesheet',
   type: 'text/css',
   href: '/themes/demo/assets/styles/maincolors.css',
@@ -2863,7 +2858,7 @@ var _ref20 = _jsx('link', {
   media: 'all'
 });
 
-var _ref21 = _jsx('link', {
+var _ref20 = _jsx('link', {
   rel: 'alternate stylesheet',
   type: 'text/css',
   href: '/themes/demo/assets/styles/cuteandbright.css',
@@ -2871,7 +2866,7 @@ var _ref21 = _jsx('link', {
   media: 'all'
 });
 
-var _ref22 = _jsx('link', {
+var _ref21 = _jsx('link', {
   rel: 'alternate stylesheet',
   type: 'text/css',
   href: '/themes/demo/assets/styles/pinkandblue.css',
@@ -2879,7 +2874,7 @@ var _ref22 = _jsx('link', {
   media: 'all'
 });
 
-var _ref23 = _jsx('link', {
+var _ref22 = _jsx('link', {
   rel: 'alternate stylesheet',
   type: 'text/css',
   href: '/themes/demo/assets/styles/sweetpastel.css',
@@ -2887,33 +2882,38 @@ var _ref23 = _jsx('link', {
   media: 'all'
 });
 
-var _ref24 = _jsx('div', {
+var _ref23 = _jsx('div', {
   id: 'fb-root'
 });
 
-var _ref25 = _jsx('script', {
+var _ref24 = _jsx('script', {
   src: '/themes/demo/assets/js/jquery.min.js'
 });
 
-var _ref26 = _jsx('script', {
+var _ref25 = _jsx('script', {
   src: '/themes/demo/assets/js/bootstrap.min.js'
 });
 
-var _ref27 = _jsx('script', {
+var _ref26 = _jsx('script', {
   src: '/themes/demo/assets/js/plugins.js'
 });
 
-var _ref28 = _jsx('script', {
+var _ref27 = _jsx('script', {
   src: '/themes/demo/assets/js/prefixfree.js'
 });
 
-var _ref29 = _jsx('script', {
+var _ref28 = _jsx('script', {
   src: '/themes/demo/assets/layerslider/js/layerslider.kreaturamedia.jquery.js',
   type: 'text/javascript'
 });
 
-var _ref30 = _jsx('script', {
+var _ref29 = _jsx('script', {
   src: 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.js',
+  type: 'text/javascript'
+});
+
+var _ref30 = _jsx('script', {
+  src: '/jquery.imagemapster.min.js',
   type: 'text/javascript'
 });
 
@@ -2926,7 +2926,10 @@ function Html(props) {
   return _jsx('html', {
     className: 'no-js',
     lang: props.lang
-  }, void 0, _jsx('head', {}, void 0, _ref, _ref2, _ref3, _ref4, _ref5, _ref6, _ref7, _ref8, _ref9, _ref10, _ref11, _ref12, _ref13, _ref14, _ref15, _ref16, _ref17, _ref18, _ref19, _ref20, _ref21, _ref22, _ref23, _jsx('link', {
+  }, void 0, _jsx('head', {}, void 0, _ref, _ref2, _ref3, _ref4, _ref5, _ref6, _ref7, _ref8, _ref9, _ref10, _ref11, _jsx('link', {
+    href: "/themes/demo/assets/css/style.css?v=" + v,
+    rel: 'stylesheet'
+  }), _ref12, _ref13, _ref14, _ref15, _ref16, _ref17, _ref18, _ref19, _ref20, _ref21, _ref22, _jsx('link', {
     rel: 'alternate stylesheet',
     type: 'text/css',
     href: "/css/app.css?v=" + v
@@ -2938,14 +2941,14 @@ function Html(props) {
     id: 'page-top',
     'data-spy': 'scroll',
     'data-target': '.navbar-custom'
-  }, void 0, _ref24, _jsx('script', {
+  }, void 0, _ref23, _jsx('script', {
     dangerouslySetInnerHTML: { __html: "(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.0&appId=1773112352977230&autoLogAppEvents=1'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));" }
   }), _jsx('div', {
     id: 'app',
     dangerouslySetInnerHTML: { __html: children }
   }), _jsx('script', {
     dangerouslySetInnerHTML: { __html: `window.App=${__WEBPACK_IMPORTED_MODULE_2_serialize_javascript___default()(app)}` }
-  }), _ref25, _ref26, _ref27, _ref28, _ref29, _ref30, _ref31, _jsx('script', {
+  }), _ref24, _ref25, _ref26, _ref27, _ref28, _ref29, _ref30, _ref31, _jsx('script', {
     src: scripts[0] + "?v=" + v
   }), _jsx('script', {
     src: scripts[1] + "?v=" + v
@@ -17107,14 +17110,24 @@ var _ref = _jsx('div', {
 }, void 0, _jsx('h6', {
   className: 'panel-title'
 }, void 0, _jsx('a', {
+  className: 'accordion-toggle',
+  'data-toggle': 'collapse',
+  'data-parent': '#accordion',
+  href: '#collapse1',
+  'aria-expanded': 'true'
+}, void 0, 'TP. H\u01B0ng Y\xEAn [9 c\u01A1 s\u1EDF]')));
+
+var _ref2 = _jsx('div', {
+  className: 'panel-heading'
+}, void 0, _jsx('h6', {
+  className: 'panel-title'
+}, void 0, _jsx('a', {
   className: 'accordion-toggle collapsed',
   'data-toggle': 'collapse',
   'data-parent': '#accordion',
   href: '#collapse2',
   'aria-expanded': 'false'
-}, void 0, 'Sunkids Kho\xE1i Ch\xE2u')));
-
-var _ref2 = _jsx('p', {}, void 0, '\u0110\u1ECBa ch\u1EC9: Khu d\xE3n d\xE2n - th\u1ECB tr\u1EA5n Kho\xE1i Ch\xE2u.');
+}, void 0, 'B\u1EAFc Giang  [1 c\u01A1 s\u1EDF]')));
 
 var _ref3 = _jsx('div', {
   className: 'panel-heading'
@@ -17124,259 +17137,183 @@ var _ref3 = _jsx('div', {
   className: 'accordion-toggle collapsed',
   'data-toggle': 'collapse',
   'data-parent': '#accordion',
-  href: '#collapse1',
-  'aria-expanded': 'false'
-}, void 0, 'Sunkids Ph\u1ED1 Hi\u1EBFn')));
-
-var _ref4 = _jsx('div', {
-  className: 'panel-body'
-}, void 0, _jsx('p', {}, void 0, '\u0110\u1ECBa ch\u1EC9: 527 Nguy\u1EC5n V\u0103n Linh - Tp H\u01B0ng Y\xEAn.'));
-
-var _ref5 = _jsx('div', {
-  className: 'panel-heading'
-}, void 0, _jsx('h6', {
-  className: 'panel-title'
-}, void 0, _jsx('a', {
-  className: 'accordion-toggle collapsed',
-  'data-toggle': 'collapse',
-  'data-parent': '#accordion',
   href: '#collapse3',
   'aria-expanded': 'false'
-}, void 0, 'Sunkids V\u0103n L\xE2m')));
+}, void 0, 'H\xE0 N\u1ED9i  [1 c\u01A1 s\u1EDF]')));
 
-var _ref6 = _jsx('div', {
-  className: 'panel-body'
-}, void 0, _jsx('p', {}, void 0, '\u0110\u1ECBa ch\u1EC9: Ch\u1EE3 \u0110\u01B0\u1EDDng C\xE1i - V\u0103n L\xE2m - Hy.'));
+class Contact extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 
-var _ref7 = _jsx('div', {
-  className: 'panel-heading'
-}, void 0, _jsx('h6', {
-  className: 'panel-title'
-}, void 0, _jsx('a', {
-  className: 'accordion-toggle collapsed',
-  'data-toggle': 'collapse',
-  'data-parent': '#accordion',
-  href: '#collapse4',
-  'aria-expanded': 'false'
-}, void 0, 'Sunkids B\xF4 Th\u1EDDi')));
+  constructor(props) {
+    super(props);
+    this.state = {
+      key: 1,
+      map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14914.656587373818!2d105.96689523679275!3d20.845264380800383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ba79feda6c43%3A0x495ec61c8e98bfe6!2zQW4gVsSpLCBLaG_DoWkgQ2jDonUsIEh1bmcgWWVuLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1527556736669'
+    };
+  }
 
-var _ref8 = _jsx('div', {
-  className: 'panel-body'
-}, void 0, _jsx('p', {}, void 0, '\u0110\u1ECBa ch\u1EC9: B\xF4 Th\u1EDDi - kho\xE1i Ch\xE2u- Hy'));
+  render() {
 
-var _ref9 = _jsx('div', {
-  className: 'panel-heading'
-}, void 0, _jsx('h6', {
-  className: 'panel-title'
-}, void 0, _jsx('a', {
-  className: 'accordion-toggle collapsed',
-  'data-toggle': 'collapse',
-  'data-parent': '#accordion',
-  href: '#collapse5',
-  'aria-expanded': 'false'
-}, void 0, 'Sunkids M\u1EF9 H\xE0o')));
+    const contact = this.props.data.information.value.contact;
 
-var _ref10 = _jsx('div', {
-  className: 'panel-body'
-}, void 0, _jsx('p', {}, void 0, '\u0110\u1ECBa ch\u1EC9: B\u1EA7n - M\u1EF9 H\xE0o - V\u0103n L\xE2m'));
-
-var _ref11 = _jsx('div', {
-  className: 'panel-heading'
-}, void 0, _jsx('h6', {
-  className: 'panel-title'
-}, void 0, _jsx('a', {
-  className: 'accordion-toggle collapsed',
-  'data-toggle': 'collapse',
-  'data-parent': '#accordion',
-  href: '#collapse6',
-  'aria-expanded': 'false'
-}, void 0, 'Sunkids L\u1EA1c H\u1ED3ng')));
-
-var _ref12 = _jsx('div', {
-  className: 'panel-body'
-}, void 0, _jsx('p', {}, void 0, '\u0110\u1ECBa ch\u1EC9: L\u1EA1c H\u1ED3ng - V\u0103n L\xE2m - H\u01B0ng Y\xEAn'));
-
-var _ref13 = _jsx('div', {
-  className: 'panel-heading'
-}, void 0, _jsx('h6', {
-  className: 'panel-title'
-}, void 0, _jsx('a', {
-  className: 'accordion-toggle collapsed',
-  'data-toggle': 'collapse',
-  'data-parent': '#accordion',
-  href: '#collapse7',
-  'aria-expanded': 'false'
-}, void 0, 'Sunkids L\u1EA1c \u0110\u1EA1o')));
-
-var _ref14 = _jsx('div', {
-  className: 'panel-body'
-}, void 0, _jsx('p', {}, void 0, '\u0110\u1ECBa ch\u1EC9: L\u1EA1c \u0110\u1EA1o -V\u0103n L\xE2m - H\u01B0ng Y\xEAn'));
-
-var _ref15 = _jsx('div', {
-  className: 'panel-heading'
-}, void 0, _jsx('h6', {
-  className: 'panel-title'
-}, void 0, _jsx('a', {
-  className: 'accordion-toggle collapsed',
-  'data-toggle': 'collapse',
-  'data-parent': '#accordion',
-  href: '#collapse8',
-  'aria-expanded': 'false'
-}, void 0, 'Sunkids Ph\xFA Xuy\xEAn')));
-
-var _ref16 = _jsx('div', {
-  className: 'panel-body'
-}, void 0, _jsx('p', {}, void 0, '\u0110\u1ECBa ch\u1EC9: Thi tr\u1EA5n Ph\xFA Xuy\xEAn - H\xE0 N\u1ED9i'));
-
-var _ref17 = _jsx('div', {
-  className: 'panel-heading'
-}, void 0, _jsx('h6', {
-  className: 'panel-title'
-}, void 0, _jsx('a', {
-  className: 'accordion-toggle collapsed',
-  'data-toggle': 'collapse',
-  'data-parent': '#accordion',
-  href: '#collapse9',
-  'aria-expanded': 'false'
-}, void 0, 'Sunkids Hi\u1EC7p Ho\xE0')));
-
-var _ref18 = _jsx('div', {
-  className: 'panel-body'
-}, void 0, _jsx('p', {}, void 0, '\u0110\u1ECBa ch\u1EC9: Ph\u1ED1 Th\u1EAFng - Hi\u1EC7p Ho\xE0 - B\u1EAFc Giang'));
-
-var _ref19 = _jsx('div', {
-  className: 'panel-heading'
-}, void 0, _jsx('h6', {
-  className: 'panel-title'
-}, void 0, _jsx('a', {
-  className: 'accordion-toggle collapsed',
-  'data-toggle': 'collapse',
-  'data-parent': '#accordion',
-  href: '#collapse10',
-  'aria-expanded': 'false'
-}, void 0, 'Sunkids M\u1EA7m Non Vipkids')));
-
-var _ref20 = _jsx('div', {
-  className: 'panel-body'
-}, void 0, _jsx('p', {}, void 0, '\u0110\u1ECBa ch\u1EC9: M\u1EA7m non Vipkids - TP H\u01B0ng Y\xEAn'));
-
-var _ref21 = _jsx('div', {
-  className: 'panel-heading'
-}, void 0, _jsx('h6', {
-  className: 'panel-title'
-}, void 0, _jsx('a', {
-  className: 'accordion-toggle collapsed',
-  'data-toggle': 'collapse',
-  'data-parent': '#accordion',
-  href: '#collapse11',
-  'aria-expanded': 'false'
-}, void 0, 'Sunkids M\u1EA7m non Mayday')));
-
-var _ref22 = _jsx('div', {
-  className: 'panel-body'
-}, void 0, _jsx('p', {}, void 0, '\u0110\u1ECBa ch\u1EC9: M\u1EA7m non Mayday - TP H\u01B0ng Y\xEAn'));
-
-function Contact(props) {
-
-  const contact = props.data.information.value.contact;
-
-  return _jsx('div', {
-    className: 'container',
-    style: { paddingTop: 100 }
-  }, void 0, _jsx('h3', {
-    style: { color: 'orange', textAlign: 'center' }
-  }, void 0, 'H\u1EC6 TH\u1ED0NG CHI NH\xC1NH \u0110\xC0O T\u1EA0O'), _jsx('div', {
-    className: 'col-md-10 col-md-offset-1'
-  }, void 0, _jsx('div', {
-    className: 'panel-group',
-    id: 'accordion'
-  }, void 0, _jsx('div', {
-    className: 'panel'
-  }, void 0, _ref, _jsx('div', {
-    id: 'collapse2',
-    className: 'panel-collapse collapse',
-    'aria-expanded': 'false',
-    style: { height: 0 }
-  }, void 0, _jsx('div', {
-    className: 'panel-body'
-  }, void 0, _ref2, _jsx('h5', {
-    style: { textAlign: 'center' }
-  }, void 0, 'B\u1EA3n \u0111\u1ED3'), _jsx('iframe', {
-    src: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14914.656587373818!2d105.96689523679275!3d20.845264380800383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ba79feda6c43%3A0x495ec61c8e98bfe6!2zQW4gVsSpLCBLaG_DoWkgQ2jDonUsIEh1bmcgWWVuLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1527556736669',
-    frameBorder: 0,
-    style: { border: 0, width: '100%', height: 'auto' },
-    allowFullScreen: true
-  })))), _jsx('div', {
-    className: 'panel'
-  }, void 0, _ref3, _jsx('div', {
-    id: 'collapse1',
-    className: 'panel-collapse collapse',
-    'aria-expanded': 'false',
-    style: { height: 0 }
-  }, void 0, _ref4)), _jsx('div', {
-    className: 'panel'
-  }, void 0, _ref5, _jsx('div', {
-    id: 'collapse3',
-    className: 'panel-collapse collapse',
-    'aria-expanded': 'false',
-    style: { height: 0 }
-  }, void 0, _ref6)), _jsx('div', {
-    className: 'panel'
-  }, void 0, _ref7, _jsx('div', {
-    id: 'collapse4',
-    className: 'panel-collapse collapse',
-    'aria-expanded': 'false',
-    style: { height: 0 }
-  }, void 0, _ref8)), _jsx('div', {
-    className: 'panel'
-  }, void 0, _ref9, _jsx('div', {
-    id: 'collapse5',
-    className: 'panel-collapse collapse',
-    'aria-expanded': 'false',
-    style: { height: 0 }
-  }, void 0, _ref10)), _jsx('div', {
-    className: 'panel'
-  }, void 0, _ref11, _jsx('div', {
-    id: 'collapse6',
-    className: 'panel-collapse collapse',
-    'aria-expanded': 'false',
-    style: { height: 0 }
-  }, void 0, _ref12)), _jsx('div', {
-    className: 'panel'
-  }, void 0, _ref13, _jsx('div', {
-    id: 'collapse7',
-    className: 'panel-collapse collapse',
-    'aria-expanded': 'false',
-    style: { height: 0 }
-  }, void 0, _ref14)), _jsx('div', {
-    className: 'panel'
-  }, void 0, _ref15, _jsx('div', {
-    id: 'collapse8',
-    className: 'panel-collapse collapse',
-    'aria-expanded': 'false',
-    style: { height: 0 }
-  }, void 0, _ref16)), _jsx('div', {
-    className: 'panel'
-  }, void 0, _ref17, _jsx('div', {
-    id: 'collapse9',
-    className: 'panel-collapse collapse',
-    'aria-expanded': 'false',
-    style: { height: 0 }
-  }, void 0, _ref18)), _jsx('div', {
-    className: 'panel'
-  }, void 0, _ref19, _jsx('div', {
-    id: 'collapse10',
-    className: 'panel-collapse collapse',
-    'aria-expanded': 'false',
-    style: { height: 0 }
-  }, void 0, _ref20)), _jsx('div', {
-    className: 'panel'
-  }, void 0, _ref21, _jsx('div', {
-    id: 'collapse11',
-    className: 'panel-collapse collapse',
-    'aria-expanded': 'false',
-    style: { height: 0 }
-  }, void 0, _ref22)))));
+    return _jsx('div', {
+      className: 'container',
+      style: { paddingTop: 100 }
+    }, void 0, _jsx('h3', {
+      style: { color: 'orange', textAlign: 'center' }
+    }, void 0, 'H\u1EC6 TH\u1ED0NG CHI NH\xC1NH \u0110\xC0O T\u1EA0O'), _jsx('div', {
+      className: 'row',
+      style: { textAlign: 'center', marginBottom: 20 }
+    }, void 0, _jsx('img', {
+      src: '/themes/demo/assets/sunkids_logo.png',
+      alt: '',
+      style: { width: '40%', margin: '0 auto' }
+    })), _jsx('div', {
+      className: 'col-md-6'
+    }, void 0, _jsx('h3', {
+      style: { textAlign: 'center' }
+    }, void 0, 'B\u1EA3n \u0111\u1ED3'), _jsx('iframe', {
+      src: this.state.map,
+      frameBorder: 0,
+      style: { border: 0, width: '100%', height: 400 },
+      allowFullScreen: true
+    })), _jsx('div', {
+      className: 'col-md-6'
+    }, void 0, _jsx('div', {
+      className: 'panel-group',
+      id: 'accordion'
+    }, void 0, _jsx('div', {
+      className: 'panel'
+    }, void 0, _ref, _jsx('div', {
+      id: 'collapse1',
+      className: 'panel-collapse collapse in',
+      'aria-expanded': 'true',
+      style: {}
+    }, void 0, _jsx('div', {
+      className: 'panel-body'
+    }, void 0, _jsx('div', {
+      className: 'list-group'
+    }, void 0, _jsx('a', {
+      href: '#',
+      className: "list-group-item " + (this.state.key === 1 ? "active" : ""),
+      onClick: () => {
+        this.setState({
+          key: 1,
+          map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14914.656587373818!2d105.96689523679275!3d20.845264380800383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ba79feda6c43%3A0x495ec61c8e98bfe6!2zQW4gVsSpLCBLaG_DoWkgQ2jDonUsIEh1bmcgWWVuLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1527556736669'
+        });
+      }
+    }, void 0, 'Sunkids Kho\xE1i Ch\xE2u'), _jsx('a', {
+      href: '#',
+      className: "list-group-item " + (this.state.key === 2 ? "active" : ""),
+      onClick: () => {
+        this.setState({
+          key: 2,
+          map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.036912974316!2d106.05642241534233!3d20.668077186195028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135c72be2f1b23b%3A0x2309aa80707d23aa!2zNTI3IE5ndXnhu4VuIFbEg24gTGluaCwgSGnhur9uIE5hbSwgSMawbmcgWcOqbiwgVmlldG5hbQ!5e0!3m2!1sfr!2s!4v1527795561239'
+        });
+      }
+    }, void 0, 'Sunkids Ph\u1ED1 Hi\u1EBFn'), _jsx('a', {
+      href: '#',
+      className: "list-group-item " + (this.state.key === 3 ? "active" : ""),
+      onClick: () => {
+        this.setState({
+          key: 3,
+          map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.8616426989333!2d105.99737521534625!3d20.958070686036635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a5a356169129%3A0x84cf23b7ea526482!2zQ2jhu6MgxJDGsOG7nW5nIEPDoWk!5e0!3m2!1sfr!2s!4v1527795805065'
+        });
+      }
+    }, void 0, 'Sunkids V\u0103n L\xE2m'), _jsx('a', {
+      href: '#',
+      className: "list-group-item " + (this.state.key === 4 ? "active" : ""),
+      onClick: () => {
+        this.setState({
+          key: 4,
+          map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.1891590450878!2d106.00862936534438!3d20.82406668610959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ba33ff96242d%3A0xab7c544d7d37275a!2zQsO0IFRo4budaSwgS2hvw6FpIENow6J1LCBIxrBuZyBZw6puLCBWaWV0bmFt!5e0!3m2!1sfr!2s!4v1527795937450'
+        });
+      }
+    }, void 0, 'Sunkids B\xF4 Th\u1EDDi'), _jsx('a', {
+      href: '#',
+      className: "list-group-item " + (this.state.key === 5 ? "active" : ""),
+      onClick: () => {
+        this.setState({
+          key: 5,
+          map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119168.87817798225!2d105.83499675085847!3d21.031587909905685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a4f449248ed9%3A0xad1fbc0907723e86!2zdHQuIELhuqduIFnDqm4gTmjDom4sIE15IEhhbywgSMawbmcgWcOqbiwgVmlldG5hbQ!5e0!3m2!1sfr!2s!4v1527796030612'
+        });
+      }
+    }, void 0, 'Sunkids M\u1EF9 H\xE0o'), _jsx('a', {
+      href: '#',
+      className: "list-group-item " + (this.state.key === 6 ? "active" : ""),
+      onClick: () => {
+        this.setState({
+          key: 6,
+          map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14903.36452476939!2d106.00697973619862!3d20.95889417657896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a5b2c3a95555%3A0x6c5690fcf3b03d17!2zTOG6oWMgSOG7k25nLCBWxINuIEzDom0sIEjGsG5nIFnDqm4sIFZpZXRuYW0!5e0!3m2!1sfr!2s!4v1527796142311'
+        });
+      }
+    }, void 0, 'Sunkids L\u1EA1c H\u1ED3ng'), _jsx('a', {
+      href: '#',
+      className: "list-group-item " + (this.state.key === 7 ? "active" : ""),
+      onClick: () => {
+        this.setState({
+          key: 7,
+          map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.1936557673703!2d106.02059031534672!3d20.984872986022225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135a42c018cc635%3A0xf99ab6a572a12271!2zUsawxqHMo3UgTGHMo2MgxJBhzKNvIC0gQ8ahIHPGocyJIHNhzIluIHh1w6LMgXQgcsawxqHMo3UgcXXDqiBTYcyBdSBCacyAbmg!5e0!3m2!1sfr!2s!4v1527796182217'
+        });
+      }
+    }, void 0, 'Sunkids L\u1EA1c \u0110\u1EA1o'), _jsx('a', {
+      href: '#',
+      className: "list-group-item " + (this.state.key === 11 ? "active" : ""),
+      onClick: () => {
+        this.setState({
+          key: 11,
+          map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59729.584573895634!2d106.02846943978486!3d20.665549466138412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135c12ae1ec71a3%3A0x4d32999e6a9bb398!2zSMawbmcgWcOqbiwgVmlldG5hbQ!5e0!3m2!1sfr!2s!4v1527796356290'
+        });
+      }
+    }, void 0, 'M\u1EA7m non Vipkids'), _jsx('a', {
+      href: '#',
+      className: "list-group-item " + (this.state.key === 12 ? "active" : ""),
+      onClick: () => {
+        this.setState({
+          key: 12,
+          map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59729.584573895634!2d106.02846943978486!3d20.665549466138412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135c12ae1ec71a3%3A0x4d32999e6a9bb398!2zSMawbmcgWcOqbiwgVmlldG5hbQ!5e0!3m2!1sfr!2s!4v1527796356290'
+        });
+      }
+    }, void 0, 'M\u1EA7m non Mayday'))))), _jsx('div', {
+      className: 'panel'
+    }, void 0, _ref2, _jsx('div', {
+      id: 'collapse2',
+      className: 'panel-collapse collapse',
+      'aria-expanded': 'false',
+      style: { height: 0 }
+    }, void 0, _jsx('div', {
+      className: 'panel-body'
+    }, void 0, _jsx('div', {
+      className: 'list-group'
+    }, void 0, _jsx('a', {
+      href: '#',
+      className: "list-group-item " + (this.state.key === 10 ? "active" : ""),
+      onClick: () => {
+        this.setState({
+          key: 10,
+          map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238084.6437332541!2d105.7363058035676!3d21.189276386939987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31351a7b1b7b2ac1%3A0x7a90cb6a6f9a0bd3!2zSGnhu4dwIEjDsmEsIELhuq9jIEdpYW5nLCBWaWV0bmFt!5e0!3m2!1sfr!2s!4v1527796283794'
+        });
+      }
+    }, void 0, 'Sunkids Hi\u1EC7p Ho\xE0'))))), _jsx('div', {
+      className: 'panel'
+    }, void 0, _ref3, _jsx('div', {
+      id: 'collapse3',
+      className: 'panel-collapse collapse',
+      'aria-expanded': 'false'
+    }, void 0, _jsx('div', {
+      className: 'panel-body'
+    }, void 0, _jsx('div', {
+      className: 'list-group'
+    }, void 0, _jsx('a', {
+      href: '#',
+      className: "list-group-item " + (this.state.key === 9 ? "active" : ""),
+      onClick: () => {
+        this.setState({
+          key: 9,
+          map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119409.5794865136!2d105.82802494633796!3d20.728516278817317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135b61ef300321f%3A0xc854c156fa4ae7ee!2zUGjDuiBYdXnDqm4sIEhhbm_DrywgVmlldG5hbQ!5e0!3m2!1sfr!2s!4v1527796217512'
+        });
+      }
+    }, void 0, 'Sunkids Ph\xFA Xuy\xEAn '))))))));
+  }
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Contact);

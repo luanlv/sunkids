@@ -2388,9 +2388,9 @@ button.list-group-item:hover {
 }
 
 
-p {
-  font-weight: bolder;
-}
+/*p {*/
+  /*font-weight: bolder;*/
+/*}*/
 
 a.accordion-toggle {
   background: orange !important;

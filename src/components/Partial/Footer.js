@@ -8,7 +8,7 @@ class Footer extends React.Component {
     const common = this.props.data.information.value.common
 
     return (
-      <footer className="footer">
+      <footer className="footer" >
         <div className="footer-top">
           <div className="container">
             <div className="row">
