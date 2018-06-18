@@ -18602,6 +18602,14 @@ class Home extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
       className: 'ls-slide',
       'data-ls': 'transition2d:48;timeshift:-2000;'
     }, void 0, _jsx('img', {
+      src: '/banner/banner3.jpg',
+      className: 'ls-bg',
+      alt: 'Slide background',
+      style: { width: '100%', height: 'auto' }
+    })), _jsx('div', {
+      className: 'ls-slide',
+      'data-ls': 'transition2d:48;timeshift:-2000;'
+    }, void 0, _jsx('img', {
       src: '/banner/banner1.jpg',
       className: 'ls-bg',
       alt: 'Slide background',

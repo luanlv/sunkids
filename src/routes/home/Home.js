@@ -33,6 +33,10 @@ class Home extends React.Component {
               {/* Slide 1 */}
               <div className="ls-slide" data-ls="transition2d:48;timeshift:-2000;">
                 {/* Background image */}
+                <img src="/banner/banner3.jpg" className="ls-bg" alt="Slide background"  style={{width: '100%', height: 'auto'}}/>
+              </div>
+              <div className="ls-slide" data-ls="transition2d:48;timeshift:-2000;">
+                {/* Background image */}
                 <img src="/banner/banner1.jpg" className="ls-bg" alt="Slide background"  style={{width: '100%', height: 'auto'}}/>
               </div>
               {/* Slide 2 */}
