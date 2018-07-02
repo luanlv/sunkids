@@ -1,6 +1,6 @@
 {
   "admin": {
-    "js": "/assets/admin.795ddbe4.chunk.js"
+    "js": "/assets/admin.4f4b46cc.chunk.js"
   },
   "news": {
     "js": "/assets/news.8f35066e.chunk.js"
@@ -9,7 +9,7 @@
     "js": "/assets/shop.cb67f745.chunk.js"
   },
   "checkout": {
-    "js": "/assets/checkout.88603c81.chunk.js"
+    "js": "/assets/checkout.49863503.chunk.js"
   },
   "contact": {
     "js": "/assets/contact.e40847d6.chunk.js"
@@ -33,6 +33,6 @@
     "js": "/assets/client.c394dde9.js"
   },
   "vendor": {
-    "js": "/assets/vendor.6316f39e.js"
+    "js": "/assets/vendor.5d281a4e.js"
   }
 }
